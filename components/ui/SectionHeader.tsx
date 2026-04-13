@@ -7,9 +7,9 @@ export const SectionHeader = ({
     align = "center",
 }: any) => (
     <div
-        className={`mb-12 ${align === "center" ? "text-center mx-auto" : "text-left"} max-w-3xl`}
+        className={`mb-12 ${align === "center" ? "text-center mx-auto" : "text-left"} max-w-screen-2xl`}
     >
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-gray-900 mb-4 leading-tight">
+        <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-gray-900 mb-4 leading-tight">
             {title
                 .split(highlight)
                 .map((part: string, i: number, arr: any[]) =>

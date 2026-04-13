@@ -10,7 +10,6 @@
     --color-dark: #1a1a1a;
     --color-surface: #fafafa;
 
-    --font-archivo: var(--font-archivo);
     --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -43,5 +42,5 @@
 
 .animate-marquee {
     display: flex;
-    animation: marquee 30s linear infinite;
+    animation: marquee 60s linear infinite;
 }

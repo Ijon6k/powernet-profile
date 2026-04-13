@@ -2,109 +2,75 @@ import React from "react";
 import NextImage from "next/image";
 import { ChevronRight } from "lucide-react";
 import { SectionHeader } from "../ui/SectionHeader";
-import { Button } from "../ui/Button";
+
+const SERVICES_DATA = [
+    {
+        id: 1,
+        title: "Tailored Software Development",
+        desc: "We build scalable, high-performance software tailored to your organization needs, transforming complex challenges into digital solutions—from web apps to complex enterprise systems.",
+        image: "/illustrations/software.svg",
+    },
+    {
+        id: 2,
+        title: "Managed Network & Proactive Maintenance",
+        desc: "Our managed NOC delivers round-the-clock monitoring and expert maintenance to prevent interruptions and optimize performance.",
+        image: "/illustrations/network.svg",
+    },
+    {
+        id: 3,
+        title: "Advanced AI & Machine Learning",
+        desc: "Future-proof your organization with custom AI integrations. From predictive analytics to automated workflows, we build solutions built for tomorrow's challenges.",
+        image: "/illustrations/ai.svg",
+    },
+];
 
 export const Services = () => {
     return (
         <section id="services" className="py-20 md:py-32 bg-white">
-            <div className="container mx-auto px-4 md:px-8 max-w-[1440px]">
+            <div className="container mx-auto px-4 md:px-8 max-w-screen-2xl">
                 <SectionHeader
                     title="Integrated Institutional IT Solutions"
                     highlight="Integrated"
                     subtitle="Scalable architectures designed for organizational resilience."
                 />
 
-                <div className="flex flex-col gap-6 md:gap-8 mt-16">
-                    <div className="bg-[#FAFAFA] rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-12 overflow-hidden relative group border border-transparent hover:border-primary/10 transition-all duration-500">
-                        <div className="md:w-1/2 z-10">
-                            <span className="text-primary font-semibold text-sm tracking-wide uppercase mb-3 block">
-                                Service
-                            </span>
-                            <h3 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                                Managed Network & Proactive Maintenance
-                            </h3>
-                            <p className="text-gray-600 mb-8 leading-relaxed max-w-md text-lg">
-                                Our managed NOC delivers round-the-clock
-                                monitoring and expert maintenance to prevent
-                                interruptions and optimize performance.
-                            </p>
-                            <Button variant="outline">
-                                Explore{" "}
-                                <ChevronRight className="w-4 h-4 ml-1" />
-                            </Button>
-                        </div>
-
-                        <div className="md:w-1/2 flex justify-center items-center relative">
-                            <div className="relative w-full max-w-[450px] aspect-square flex items-center justify-center">
-                                <div className="absolute w-72 h-72 bg-primary-100 rounded-full blur-3xl opacity-40 group-hover:opacity-60 transition-opacity"></div>
-                                <div className="relative w-full h-full">
-                                    <NextImage
-                                        src="/illustrations/network.svg"
-                                        alt="Managed Network Illustration"
-                                        fill
-                                        className="object-contain transform group-hover:scale-105 transition-transform duration-500"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                        <div className="bg-[#FAFAFA] rounded-3xl p-8 md:p-12 flex flex-col h-full group border border-transparent hover:border-primary/10 hover:shadow-xl transition-all duration-500">
-                            <div className="mb-8 flex-grow">
-                                <span className="text-primary font-semibold text-sm tracking-wide uppercase mb-3 block">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 xl:gap-8 mt-16">
+                    {SERVICES_DATA.map((service) => (
+                        <div
+                            key={service.id}
+                            className="bg-[#FAFAFA] rounded-3xl p-8 xl:p-10 flex flex-col border border-transparent hover:border-primary/10 hover:shadow-lg transition-all duration-500 group"
+                        >
+                            {/* Text content */}
+                            <div className="flex-grow">
+                                <span className="text-primary font-semibold text-sm tracking-wide uppercase mb-4 block">
                                     Service
                                 </span>
-                                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 leading-tight">
-                                    Advanced AI & Machine Learning
+                                <h3 className="text-2xl xl:text-3xl font-bold text-gray-900 mb-4 leading-tight">
+                                    {service.title}
                                 </h3>
-                                <p className="text-gray-600 leading-relaxed text-lg">
-                                    Future-proof your organization with custom
-                                    AI integrations. Dari analitik prediktif
-                                    hingga otomatisasi workflow.
+                                <p className="text-gray-600 leading-relaxed text-base xl:text-lg">
+                                    {service.desc}
                                 </p>
                             </div>
-                            <Button variant="outline" className="mb-12 w-fit">
-                                Explore{" "}
-                                <ChevronRight className="w-4 h-4 ml-1" />
-                            </Button>
-                            <div className="w-full h-64 relative mt-auto">
+
+                            {/* Explore button */}
+                            <div className="mt-8 mb-10">
+                                <button className="inline-flex items-center text-sm font-semibold text-primary bg-primary-50 px-6 py-3 rounded-full hover:bg-primary-100 transition-colors">
+                                    Explore <ChevronRight className="w-4 h-4 ml-1" />
+                                </button>
+                            </div>
+
+                            {/* Illustration */}
+                            <div className="w-full h-56 xl:h-64 relative flex items-center justify-center">
                                 <NextImage
-                                    src="/illustrations/software.svg"
-                                    alt="AI Illustration"
+                                    src={service.image}
+                                    alt={service.title}
                                     fill
-                                    className="object-contain transform group-hover:-translate-y-2 transition-transform duration-500"
+                                    className="object-contain group-hover:scale-105 transition-transform duration-500"
                                 />
                             </div>
                         </div>
-
-                        <div className="bg-[#FAFAFA] rounded-3xl p-8 md:p-12 flex flex-col h-full group border border-transparent hover:border-primary/10 hover:shadow-xl transition-all duration-500">
-                            <div className="mb-8 flex-grow">
-                                <span className="text-primary font-semibold text-sm tracking-wide uppercase mb-3 block">
-                                    Service
-                                </span>
-                                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 leading-tight">
-                                    Tailored Software Development
-                                </h3>
-                                <p className="text-gray-600 leading-relaxed text-lg">
-                                    We build scalable, high-performance software
-                                    tailored to your organizational needs.
-                                </p>
-                            </div>
-                            <Button variant="outline" className="mb-12 w-fit">
-                                Explore{" "}
-                                <ChevronRight className="w-4 h-4 ml-1" />
-                            </Button>
-                            <div className="w-full h-64 relative mt-auto">
-                                <NextImage
-                                    src="/illustrations/ai.svg"
-                                    alt="Software Development Illustration"
-                                    fill
-                                    className="object-contain transform group-hover:-translate-y-2 transition-transform duration-500"
-                                />
-                            </div>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </section>

@@ -4,29 +4,56 @@ import { SectionHeader } from "../ui/SectionHeader";
 import { PARTNERS } from "@/constants/content";
 
 export const Partners = () => {
+    const row1Order = ["Unilever", "BCA", "Kemenkes", "HUAWEI", "Bank Jakarta"];
+    const row2Order = ["WIKA", "BERCA", "ISS", "KPI", "SDM POLRI"];
+
+    const row1 = row1Order.map(name => PARTNERS.find(p => p.name === name)).filter(Boolean);
+    const row2 = row2Order.map(name => PARTNERS.find(p => p.name === name)).filter(Boolean);
+
     return (
         <section className="py-20 bg-white border-y border-gray-50">
-            <div className="container mx-auto px-4 text-center max-w-7xl">
+            <div className="container mx-auto px-4 text-center max-w-[1920px]">
                 <SectionHeader
                     title="Validated by Leaders in Government and Enterprise."
                     highlight="Leaders"
-                    subtitle="Kami bangga berkolaborasi dengan institusi ternama untuk membangun ekosistem digital yang aman."
+                    subtitle="We collaborate with key stakeholders to deploy secure, high-governance IT ecosystems"
                 />
 
-                <div className="mt-16 overflow-hidden relative w-full">
-                    <div className="flex flex-wrap justify-center items-center gap-10 md:gap-20">
-                        {PARTNERS.map((partner, idx) => (
+                <div className="mt-16 sm:mt-24 w-full flex flex-col gap-16">
+                    <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-6 lg:gap-8 xl:gap-10 2xl:gap-16">
+                        {row1.map((partner, idx) => (
                             <div
-                                key={idx}
-                                className="relative w-40 h-20 md:w-52 md:h-28 transition-transform duration-300 hover:scale-110"
+                                key={`row1-${idx}`}
+                                className="relative w-[100px] h-[50px] sm:w-[130px] sm:h-[65px] md:w-[150px] md:h-[75px] lg:w-[170px] lg:h-[85px] xl:w-[220px] xl:h-[110px] 2xl:w-[280px] 2xl:h-[140px] transition-transform duration-300 hover:scale-105"
                             >
-                                <NextImage
-                                    src={partner.logo}
-                                    alt={partner.name}
-                                    fill
-                                    className="object-contain"
-                                    priority={idx < 5}
-                                />
+                                {partner && (
+                                    <NextImage
+                                        src={partner.logo}
+                                        alt={partner.name}
+                                        fill
+                                        className="object-contain"
+                                        priority={true}
+                                    />
+                                )}
+                            </div>
+                        ))}
+                    </div>
+
+                    <div className="flex flex-wrap justify-center items-center gap-4 ">
+                        {row2.map((partner, idx) => (
+                            <div
+                                key={`row2-${idx}`}
+                                className="relative w-[100px] h-[50px] sm:w-[130px] sm:h-[65px] md:w-[150px] md:h-[75px] lg:w-[170px] lg:h-[85px] xl:w-[220px] xl:h-[110px] 2xl:w-[280px] 2xl:h-[140px] transition-transform duration-300 hover:scale-105"
+                            >
+                                {partner && (
+                                    <NextImage
+                                        src={partner.logo}
+                                        alt={partner.name}
+                                        fill
+                                        className="object-contain"
+                                        priority={false}
+                                    />
+                                )}
                             </div>
                         ))}
                     </div>

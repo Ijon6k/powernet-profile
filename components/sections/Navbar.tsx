@@ -35,7 +35,7 @@ export const Navbar = () => {
                             <a
                                 key={link.label}
                                 href={link.href}
-                                className="text-sm font-medium text-gray-700 hover:text-primary transition-colors flex items-center gap-1"
+                                className="text-base font-medium text-gray-700 hover:text-primary transition-colors flex items-center gap-1"
                             >
                                 {link.label}
                                 {link.hasDropdown && (
@@ -46,7 +46,7 @@ export const Navbar = () => {
                     </nav>
 
                     <div className="hidden md:block">
-                        <Button variant="outline" className="text-xs px-5 py-2">
+                        <Button variant="outline" className="text-sm font-medium px-6 py-2.5">
                             Consult Now <ChevronRight className="w-3 h-3" />
                         </Button>
                     </div>
@@ -66,7 +66,7 @@ export const Navbar = () => {
                         <a
                             key={link.label}
                             href={link.href}
-                            className="p-3 text-base font-medium text-gray-800 hover:bg-gray-50 rounded-lg"
+                            className="p-3 text-lg font-medium text-gray-800 hover:bg-gray-50 rounded-lg"
                         >
                             {link.label}
                         </a>
