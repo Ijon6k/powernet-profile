@@ -32,16 +32,35 @@ export const Navbar = () => {
 
                     <nav className="hidden md:flex items-center gap-8">
                         {NAV_LINKS.map((link) => (
-                            <a
-                                key={link.label}
-                                href={link.href}
-                                className="text-base font-medium text-gray-700 hover:text-primary transition-colors flex items-center gap-1"
-                            >
-                                {link.label}
-                                {link.hasDropdown && (
-                                    <ChevronRight className="w-3 h-3 rotate-90" />
+                            <div key={link.label} className="relative group">
+                                <a
+                                    href={link.href}
+                                    className="text-base font-medium text-gray-700 hover:text-primary transition-colors flex items-center gap-1 py-4"
+                                >
+                                    {link.label}
+                                    {link.hasDropdown && (
+                                        <ChevronRight className="w-3 h-3 rotate-90 transition-transform group-hover:-rotate-90" />
+                                    )}
+                                </a>
+                                {link.hasDropdown && link.dropdownItems && (
+                                    <div className="absolute top-full right-0 lg:left-0 lg:right-auto mt-0 w-64 bg-white rounded-xl shadow-[0_10px_40px_-10px_rgba(0,0,0,0.1)] border border-gray-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 overflow-hidden">
+                                        <div className="p-2 flex flex-col gap-1">
+                                            {link.dropdownItems.map((item) => (
+                                                <a
+                                                    key={item.label}
+                                                    href={item.href}
+                                                    className="flex items-center gap-3 px-4 py-3 hover:bg-gray-50 rounded-lg transition-all group/item"
+                                                >
+                                                    <i className={`${item.icon} text-xl text-gray-900 group-hover/item:text-primary transition-colors`}></i>
+                                                    <span className="text-sm font-medium text-gray-700 group-hover/item:text-primary transition-colors">
+                                                        {item.label}
+                                                    </span>
+                                                </a>
+                                            ))}
+                                        </div>
+                                    </div>
                                 )}
-                            </a>
+                            </div>
                         ))}
                     </nav>
 
@@ -61,17 +80,33 @@ export const Navbar = () => {
             </div>
 
             {isMobileMenuOpen && (
-                <div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-xl border-t border-gray-100 p-4 flex flex-col gap-4">
+                <div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-xl border-t border-gray-100 p-4 flex flex-col gap-2">
                     {NAV_LINKS.map((link) => (
-                        <a
-                            key={link.label}
-                            href={link.href}
-                            className="p-3 text-lg font-medium text-gray-800 hover:bg-gray-50 rounded-lg"
-                        >
-                            {link.label}
-                        </a>
+                        <div key={link.label} className="flex flex-col">
+                            <a
+                                href={link.href}
+                                className="p-3 text-lg font-medium text-gray-800 hover:bg-gray-50 rounded-lg flex items-center justify-between transition-colors"
+                            >
+                                {link.label}
+                                {link.hasDropdown && <ChevronRight className="w-4 h-4 rotate-90" />}
+                            </a>
+                            {link.hasDropdown && link.dropdownItems && (
+                                <div className="flex flex-col ml-4 border-l-2 border-primary/20 pl-2 mt-1 gap-1">
+                                    {link.dropdownItems.map((item) => (
+                                        <a
+                                            key={item.label}
+                                            href={item.href}
+                                            className="p-3 text-sm font-medium text-gray-600 hover:text-primary hover:bg-gray-50 rounded-lg flex items-center gap-3 transition-colors group/mobileItem"
+                                        >
+                                            <i className={`${item.icon} text-xl text-gray-900 group-hover/mobileItem:text-primary transition-colors`}></i>
+                                            {item.label}
+                                        </a>
+                                    ))}
+                                </div>
+                            )}
+                        </div>
                     ))}
-                    <Button variant="primary" className="w-full mt-2">
+                    <Button variant="primary" className="w-full mt-4">
                         Consult Now
                     </Button>
                 </div>
