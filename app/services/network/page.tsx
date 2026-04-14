@@ -30,53 +30,56 @@ export default function NetworkServicePage() {
                 <section className="py-20 bg-white">
                     <div className="container mx-auto px-4 md:px-8 max-w-7xl">
                         <div className="text-center mb-16">
-                            <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4">Integrated Network Infrastructure Solutions</h2>
-                            <p className="text-gray-600 max-w-3xl mx-auto">
+                            <h2 className="text-2xl md:text-4xl font-semibold text-primary mb-4">Integrated Network Infrastructure Solutions</h2>
+                            <p className="text-lg md:text-xl font-medium text-gray-600 max-w-4xl mx-auto">
                                 A technical overview of connectivity services designed to support operational stability and data scalability through fiber optic infrastructure.
                             </p>
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                             {/* Card 1 */}
-                            <div className="relative rounded-2xl overflow-hidden aspect-[3/4] md:aspect-auto md:h-[450px] group flex flex-col justify-end border border-gray-100">
-                                {/* PLACEHOLDER IMAGE */}
-                                <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
-                                    <span className="text-gray-400 text-sm font-medium">Image Placeholder</span>
-                                </div>
-                                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent z-10"></div>
-                                <div className="relative z-20 p-8">
-                                    <h3 className="text-xl font-bold text-white mb-3">Private Fiber & High-Speed Access</h3>
-                                    <p className="text-gray-200 text-sm leading-relaxed">
+                            <div className="relative rounded-2xl overflow-hidden aspect-[3/4] md:aspect-auto md:h-[500px] group flex flex-col justify-end border border-gray-100">
+                                {/* BACKGROUND IMAGE */}
+                                <img src="/image/networkimage1.svg" alt="Private Fiber" className="absolute inset-0 w-full h-full object-cover" />
+                                {/* Dark overlay to darken the image */}
+                                <div className="absolute inset-0 bg-black/40 z-[5]"></div>
+                                {/* Dark Red gradient layer - reduced height and deeper color */}
+                                <div className="absolute inset-x-0 bottom-0 h-[50%] bg-gradient-to-t from-[#6b122b]/95 via-[#6b122b]/40 to-transparent z-10"></div>
+                                <div className="relative z-20 p-8 lg:p-10">
+                                    <h3 className="text-xl lg:text-2xl font-bold text-white mb-4">Private Fiber & High-Speed Access</h3>
+                                    <p className="text-sm lg:text-base text-gray-100 leading-relaxed font-medium">
                                         High-speed fiber optic channel with direct pool and 1:1 CIR ratio. We provide dedicated symmetric bandwidth to ensure your business stays connected with maximum reliability.
                                     </p>
                                 </div>
                             </div>
                             
                             {/* Card 2 */}
-                            <div className="relative rounded-2xl overflow-hidden aspect-[3/4] md:aspect-auto md:h-[450px] group flex flex-col justify-end border border-gray-100">
-                                {/* PLACEHOLDER IMAGE */}
-                                <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
-                                    <span className="text-gray-400 text-sm font-medium">Image Placeholder</span>
-                                </div>
-                                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent z-10"></div>
-                                <div className="relative z-20 p-8">
-                                    <h3 className="text-xl font-bold text-white mb-3">Full-Manage Server Infrastructure</h3>
-                                    <p className="text-gray-200 text-sm leading-relaxed">
+                            <div className="relative rounded-2xl overflow-hidden aspect-[3/4] md:aspect-auto md:h-[500px] group flex flex-col justify-end border border-gray-100">
+                                {/* BACKGROUND IMAGE */}
+                                <img src="/image/networkimage2.svg" alt="Server Infrastructure" className="absolute inset-0 w-full h-full object-cover" />
+                                {/* Dark overlay to darken the image */}
+                                <div className="absolute inset-0 bg-black/40 z-[5]"></div>
+                                {/* Dark Red gradient layer - reduced height and deeper color */}
+                                <div className="absolute inset-x-0 bottom-0 h-[50%] bg-gradient-to-t from-[#6b122b]/95 via-[#6b122b]/40 to-transparent z-10"></div>
+                                <div className="relative z-20 p-8 lg:p-10">
+                                    <h3 className="text-xl lg:text-2xl font-bold text-white mb-4">Full-Manage Server Infrastructure</h3>
+                                    <p className="text-sm lg:text-base text-gray-100 leading-relaxed font-medium">
                                         Comprehensive hardware and software solutions with 24/7 monitoring. We handle performance optimization and system upgrades so your applications always run smoothly and reliably.
                                     </p>
                                 </div>
                             </div>
                             
                             {/* Card 3 */}
-                            <div className="relative rounded-2xl overflow-hidden aspect-[3/4] md:aspect-auto md:h-[450px] group flex flex-col justify-end border border-gray-100">
-                                {/* PLACEHOLDER IMAGE */}
-                                <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
-                                    <span className="text-gray-400 text-sm font-medium">Image Placeholder</span>
-                                </div>
-                                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent z-10"></div>
-                                <div className="relative z-20 p-8">
-                                    <h3 className="text-xl font-bold text-white mb-3">Proactive Infra Management & SLA</h3>
-                                    <p className="text-gray-200 text-sm leading-relaxed">
+                            <div className="relative rounded-2xl overflow-hidden aspect-[3/4] md:aspect-auto md:h-[500px] group flex flex-col justify-end border border-gray-100">
+                                {/* BACKGROUND IMAGE */}
+                                <img src="/image/networkimage3.svg" alt="Infra Management" className="absolute inset-0 w-full h-full object-cover" />
+                                {/* Dark overlay to darken the image */}
+                                <div className="absolute inset-0 bg-black/40 z-[5]"></div>
+                                {/* Dark Red gradient layer - reduced height and deeper color */}
+                                <div className="absolute inset-x-0 bottom-0 h-[50%] bg-gradient-to-t from-[#6b122b]/95 via-[#6b122b]/40 to-transparent z-10"></div>
+                                <div className="relative z-20 p-8 lg:p-10">
+                                    <h3 className="text-xl lg:text-2xl font-bold text-white mb-4">Proactive Infra Management & SLA</h3>
+                                    <p className="text-sm lg:text-base text-gray-100 leading-relaxed font-medium">
                                         Professional maintenance, security management, and proactive adaptation. Our technical team ensures constant supervision and rapid support to keep your infrastructure secure and online.
                                     </p>
                                 </div>
@@ -89,50 +92,50 @@ export default function NetworkServicePage() {
                 <section className="py-20 bg-gray-50/50">
                     <div className="container mx-auto px-4 md:px-8 max-w-7xl">
                         <div className="mb-12">
-                            <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4">Future-Ready Cloud Infrastructure</h2>
-                            <p className="text-gray-600 max-w-4xl">
+                            <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-4">Future-Ready Cloud Infrastructure</h2>
+                            <p className="text-lg md:text-xl font-medium text-gray-600 max-w-4xl">
                                 A high-performance and flexible cloud environment designed for seamless remote access and resilient data protection. Our solutions allow you to scale resources instantly while maintaining maximum security and operational visibility.
                             </p>
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            <div className="bg-white rounded-2xl p-6 shadow-sm flex flex-col justify-between border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary">
-                                <div className="w-16 h-16 bg-gray-50 rounded-xl mb-6 flex items-center justify-center text-primary border border-gray-100">
-                                    <span className="text-xs text-gray-400 font-medium text-center">Icon<br/>Placeholder</span>
+                            <div className="bg-white rounded-2xl p-8 lg:p-10 shadow-sm flex flex-col justify-between border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary text-left">
+                                <div className="w-full h-32 lg:h-40 mb-8">
+                                    <img src="/illustrations/network/High performance server 1.svg" alt="Seamless Remote Access" className="w-full h-full object-contain" />
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-gray-900 mb-2">01 Seamless Remote Access</h3>
-                                    <p className="text-sm text-gray-600">Safeguard your digital assets with advanced protocols and multi-layered authentication for maximum privacy.</p>
+                                    <h3 className="text-xl font-semibold text-gray-900 mb-3">01 Seamless Remote Access</h3>
+                                    <p className="text-base font-medium text-gray-600 leading-relaxed">Safeguard your digital assets with advanced protocols and multi-layered authentication for maximum privacy.</p>
                                 </div>
                             </div>
 
-                            <div className="bg-white rounded-2xl p-6 shadow-sm flex flex-col justify-between border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary">
-                                <div className="w-16 h-16 bg-gray-50 rounded-xl mb-6 flex items-center justify-center text-primary border border-gray-100">
-                                    <span className="text-xs text-gray-400 font-medium text-center">Icon<br/>Placeholder</span>
+                            <div className="bg-white rounded-2xl p-8 lg:p-10 shadow-sm flex flex-col justify-between border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary text-left">
+                                <div className="w-full h-32 lg:h-40 mb-8">
+                                    <img src="/illustrations/network/High nnnserver 1.svg" alt="Automated Data Security" className="w-full h-full object-contain" />
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-gray-900 mb-2">02 Automated Data Security</h3>
-                                    <p className="text-sm text-gray-600">Safeguard your digital assets with advanced protocols and multi-layered authentication for maximum privacy.</p>
+                                    <h3 className="text-xl font-semibold text-gray-900 mb-3">02 Automated Data Security</h3>
+                                    <p className="text-base font-medium text-gray-600 leading-relaxed">Safeguard your digital assets with advanced protocols and multi-layered authentication for maximum privacy.</p>
                                 </div>
                             </div>
 
-                            <div className="bg-white rounded-2xl p-6 shadow-sm flex flex-col justify-between border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary">
-                                <div className="w-16 h-16 bg-gray-50 rounded-xl mb-6 flex items-center justify-center text-primary border border-gray-100">
-                                    <span className="text-xs text-gray-400 font-medium text-center">Icon<br/>Placeholder</span>
+                            <div className="bg-white rounded-2xl p-8 lg:p-10 shadow-sm flex flex-col justify-between border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary text-left">
+                                <div className="w-full h-32 lg:h-40 mb-8">
+                                    <img src="/illustrations/network/High nnnserver (1) 1.svg" alt="On-Demand Scalability" className="w-full h-full object-contain" />
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-gray-900 mb-2">03 On-Demand Scalability</h3>
-                                    <p className="text-sm text-gray-600">Safeguard your digital assets with advanced protocols and multi-layered authentication for maximum privacy.</p>
+                                    <h3 className="text-xl font-semibold text-gray-900 mb-3">03 On-Demand Scalability</h3>
+                                    <p className="text-base font-medium text-gray-600 leading-relaxed">Safeguard your digital assets with advanced protocols and multi-layered authentication for maximum privacy.</p>
                                 </div>
                             </div>
 
-                            <div className="bg-white rounded-2xl p-6 shadow-sm flex flex-col justify-between border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary">
-                                <div className="w-16 h-16 bg-gray-50 rounded-xl mb-6 flex items-center justify-center text-primary border border-gray-100">
-                                    <span className="text-xs text-gray-400 font-medium text-center">Icon<br/>Placeholder</span>
+                            <div className="bg-white rounded-2xl p-8 lg:p-10 shadow-sm flex flex-col justify-between border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary text-left">
+                                <div className="w-full h-32 lg:h-40 mb-8">
+                                    <img src="/illustrations/network/High nnnserver (2) 1.svg" alt="Optimized Cost Efficiency" className="w-full h-full object-contain" />
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-gray-900 mb-2">04 Optimized Cost Efficiency</h3>
-                                    <p className="text-sm text-gray-600">Safeguard your digital assets with advanced protocols and multi-layered authentication for maximum privacy.</p>
+                                    <h3 className="text-xl font-semibold text-gray-900 mb-3">04 Optimized Cost Efficiency</h3>
+                                    <p className="text-base font-medium text-gray-600 leading-relaxed">Safeguard your digital assets with advanced protocols and multi-layered authentication for maximum privacy.</p>
                                 </div>
                             </div>
                         </div>
