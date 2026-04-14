@@ -24,18 +24,18 @@ export default function AIServicePage() {
                                 </p>
 
                                 <div className="flex flex-wrap items-center gap-4">
-                                    <button 
+                                    <button
                                         className="flex items-center justify-center gap-0 px-6 py-3 rounded-full bg-[#fce8ef] text-primary hover:bg-[#fbdde7] font-medium transition-colors text-sm"
                                         onClick={() => window.location.href = '/'}
                                     >
-                                        <span>Learn More</span>
+                                        <span className="pr-2">Learn More</span>
                                         <i className="fi fi-rr-info leading-none"></i>
                                     </button>
-                                    <button 
+                                    <button
                                         className="flex items-center justify-center gap-0 px-6 py-3 rounded-full bg-[#b83b5e] text-white hover:bg-[#9f3150] font-medium transition-colors shadow-lg shadow-primary/20 text-sm"
                                         onClick={() => window.location.href = '/'}
                                     >
-                                        <span>Free Consultation</span>
+                                        <span className="pr-2">Free Consultation</span>
                                         <i className="fi fi-rr-call-outgoing leading-none"></i>
                                     </button>
                                 </div>
@@ -88,7 +88,7 @@ export default function AIServicePage() {
 
                 {/* Process Section */}
                 <section className="py-24 bg-white relative overflow-hidden bg-custom-dots">
-                    <div className="container mx-auto px-4 md:px-8 max-w-6xl relative z-10">
+                    <div className="container mx-auto px-4 md:px-16 max-w-screen-2xl relative z-10">
                         <div className="text-center mb-16 md:mb-24">
                             <h2 className="text-3xl md:text-4xl font-bold text-[#9f3150] mb-6">From Raw Data to Scalable Intelligence</h2>
                             <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
@@ -104,7 +104,7 @@ export default function AIServicePage() {
                             </div>
 
                             {/* Left Cards */}
-                            <div className="w-full md:w-[42%] flex flex-col gap-8 lg:gap-20 relative z-10">
+                            <div className="w-full md:w-[32%] flex flex-col gap-8 lg:gap-20 relative z-10">
                                 {/* Card 1 */}
                                 <div className="p-[10px] rounded-2xl bg-gradient-to-r from-[#fcb6c1] to-[#fde2e6] shadow-[0_4px_20px_rgba(252,182,193,0.4)]">
                                     <div className="bg-white rounded-[14px] p-6 lg:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 lg:gap-6 h-full relative">
@@ -132,12 +132,12 @@ export default function AIServicePage() {
                             </div>
 
                             {/* Center Logo */}
-                            <div className="hidden md:flex w-32 h-32 lg:w-40 lg:h-40 rounded-full bg-gradient-to-b from-[#f5a19b] to-[#fef2f2] shadow-[0_10px_40px_rgba(245,161,155,0.4)] items-center justify-center relative z-20 shrink-0 mx-8">
-                                <img src="/illustrations/ai/aicenter.svg" alt="AI Center Brain" className="w-18 h-18 lg:w-24 lg:h-24 object-contain" />
+                            <div className="hidden md:flex w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-gradient-to-b from-[#f5a19b] to-[#fef2f2] shadow-[0_10px_40px_rgba(245,161,155,0.4)] items-center justify-center relative z-20 shrink-0 mx-20">
+                                <img src="/illustrations/ai/aicenter.svg" alt="AI Center Brain" className="w-20 h-20 lg:w-22 lg:h-22 object-contain" />
                             </div>
 
                             {/* Right Cards */}
-                            <div className="w-full md:w-[42%] flex flex-col gap-8 lg:gap-20 relative z-10 mt-12 md:mt-0">
+                            <div className="w-full md:w-[32%] flex flex-col gap-8 lg:gap-20 relative z-10 mt-12 md:mt-0">
                                 {/* Card 3 */}
                                 <div className="p-[10px] rounded-2xl bg-gradient-to-l from-[#fcb6c1] to-[#fde2e6] shadow-[0_4px_20px_rgba(252,182,193,0.4)]">
                                     <div className="bg-white rounded-[14px] p-6 lg:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 lg:gap-6 h-full relative">
