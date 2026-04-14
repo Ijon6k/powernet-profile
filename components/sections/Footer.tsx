@@ -17,8 +17,9 @@ export const Footer = () => {
                             solutions that enhance efficiency and foster
                             innovation.
                         </p>
-                        <Button variant="outline" className="px-8 py-3">
-                            Contact Us <ChevronRight className="w-4 h-4 ml-1" />
+                        <Button variant="outline" className="px-8 py-3 flex items-center justify-center gap-0">
+                            <span>Contact Us</span>
+                            <i className="fi fi-rr-call-outgoing leading-none"></i>
                         </Button>
                     </div>
 
@@ -30,7 +31,7 @@ export const Footer = () => {
                             <ul className="space-y-4 text-base text-gray-500">
                                 <li>
                                     <a
-                                        href="#"
+                                        href="/services/network"
                                         className="hover:text-primary transition-colors"
                                     >
                                         Network & Maintenance
@@ -38,7 +39,7 @@ export const Footer = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href="#"
+                                        href="/services/software"
                                         className="hover:text-primary transition-colors"
                                     >
                                         Software Development
@@ -46,7 +47,7 @@ export const Footer = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href="#"
+                                        href="/services/ai"
                                         className="hover:text-primary transition-colors"
                                     >
                                         Artificial Intelligence

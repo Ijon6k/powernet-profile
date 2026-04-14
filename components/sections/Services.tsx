@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import NextImage from "next/image";
 import { ChevronRight } from "lucide-react";
@@ -9,18 +10,21 @@ const SERVICES_DATA = [
         title: "Tailored Software Development",
         desc: "We build scalable, high-performance software tailored to your organization needs, transforming complex challenges into digital solutions—from web apps to complex enterprise systems.",
         image: "/illustrations/software.svg",
+        href: "/services/software",
     },
     {
         id: 2,
         title: "Managed Network & Proactive Maintenance",
         desc: "Our managed NOC delivers round-the-clock monitoring and expert maintenance to prevent interruptions and optimize performance.",
         image: "/illustrations/network.svg",
+        href: "/services/network",
     },
     {
         id: 3,
         title: "Advanced AI & Machine Learning",
         desc: "Future-proof your organization with custom AI integrations. From predictive analytics to automated workflows, we build solutions built for tomorrow's challenges.",
         image: "/illustrations/ai.svg",
+        href: "/services/ai",
     },
 ];
 
@@ -55,8 +59,12 @@ export const Services = () => {
 
                             {/* Explore button */}
                             <div className="mt-8 mb-10">
-                                <button className="inline-flex items-center text-sm font-semibold text-primary bg-primary-50 px-6 py-3 rounded-full hover:bg-primary-100 transition-colors">
-                                    Explore <ChevronRight className="w-4 h-4 ml-1" />
+                                <button 
+                                    className="inline-flex items-center justify-center text-sm font-semibold text-primary bg-primary-50 px-6 py-3 rounded-full hover:bg-primary-100 transition-colors gap-0"
+                                    onClick={() => window.location.href = service.href}
+                                >
+                                    <span>Explore</span>
+                                    <i className="fi fi-rr-info leading-none"></i>
                                 </button>
                             </div>
 

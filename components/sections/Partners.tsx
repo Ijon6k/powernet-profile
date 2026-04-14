@@ -11,7 +11,7 @@ export const Partners = () => {
     const row2 = row2Order.map(name => PARTNERS.find(p => p.name === name)).filter(Boolean);
 
     return (
-        <section className="py-20 bg-white border-y border-gray-50">
+        <section className="py-20 bg-white border-y border-gray-50 bg-custom-dots">
             <div className="container mx-auto px-4 text-center max-w-[1920px]">
                 <SectionHeader
                     title="Validated by Leaders in Government and Enterprise."

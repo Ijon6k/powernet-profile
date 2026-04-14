@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 export const NAV_LINKS = [
-    { label: "Home", href: "#" },
+    { label: "Home", href: "/" },
     { 
         label: "Services", 
         href: "#services", 

@@ -1,5 +1,6 @@
 import { Archivo } from "next/font/google";
 import "./globals.css";
+import { SmoothScrollProvider } from "@/components/providers/SmoothScrollProvider";
 
 const archivo = Archivo({
     subsets: ["latin"],
@@ -21,7 +22,9 @@ export default function RootLayout({
                 />
             </head>
             <body className={`${archivo.variable} antialiased`}>
-                {children}
+                <SmoothScrollProvider>
+                    {children}
+                </SmoothScrollProvider>
             </body>
         </html>
     );

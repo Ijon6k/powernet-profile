@@ -21,14 +21,14 @@ export const Navbar = () => {
         >
             <div className="container mx-auto px-4 md:px-8 max-w-7xl">
                 <div className="flex items-center justify-between">
-                    <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
+                    <a href="/" className="flex-shrink-0 flex items-center gap-2">
                         <Image
                             src="/logos/LOGO.svg"
                             alt="PowerNet Logo"
                             width={150}
                             height={40}
                         />
-                    </div>
+                    </a>
 
                     <nav className="hidden md:flex items-center gap-8">
                         {NAV_LINKS.map((link) => (
@@ -65,8 +65,13 @@ export const Navbar = () => {
                     </nav>
 
                     <div className="hidden md:block">
-                        <Button variant="outline" className="text-sm font-medium px-6 py-2.5">
-                            Consult Now <ChevronRight className="w-3 h-3" />
+                        <Button 
+                            variant="outline" 
+                            className="text-sm font-medium px-6 py-2.5 flex items-center justify-center gap-0"
+                            onClick={() => window.location.href = '/'}
+                        >
+                            <span>Consult Now</span>
+                            <i className="fi fi-rr-call-outgoing leading-none"></i>
                         </Button>
                     </div>
 
@@ -106,8 +111,13 @@ export const Navbar = () => {
                             )}
                         </div>
                     ))}
-                    <Button variant="primary" className="w-full mt-4">
-                        Consult Now
+                    <Button 
+                        variant="primary" 
+                        className="w-full mt-4 flex items-center justify-center gap-0"
+                        onClick={() => window.location.href = '/'}
+                    >
+                        <span>Consult Now</span>
+                        <i className="fi fi-rr-call-outgoing leading-none"></i>
                     </Button>
                 </div>
             )}

@@ -1,10 +1,11 @@
+"use client";
 import React from "react";
 import { ChevronRight } from "lucide-react";
 import { Button } from "../ui/Button";
 
 export const Hero = () => {
     return (
-        <section className="relative pt-32  md:pt-40 overflow-hidden bg-white">
+        <section className="relative pt-32 md:pt-40 overflow-hidden bg-white bg-custom-dots">
 
 
             <div className=" container mx-auto px-4 md:px-8  max-w-screen-3xl relative z-10">
@@ -16,10 +17,11 @@ export const Hero = () => {
                     </h1>
                     <Button
                         variant="primary"
-                        className="px-8 py-4 text-base rounded-full shadow-lg hover:shadow-primary/20 transition-all"
+                        className="px-8 py-4 text-base rounded-full shadow-lg hover:shadow-primary/20 transition-all flex items-center justify-center gap-0"
+                        onClick={() => window.location.href = '/'}
                     >
-                        Free Consultation{" "}
-                        <ChevronRight className="w-4 h-4 ml-1" />
+                        <span>Free Consultation</span>
+                        <i className="fi fi-rr-call-outgoing leading-none"></i>
                     </Button>
                 </div>
 
