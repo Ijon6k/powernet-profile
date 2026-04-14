@@ -165,27 +165,21 @@ export default function NetworkServicePage() {
 
                                 <ul className="space-y-6">
                                     <li className="flex items-start gap-3">
-                                        <div className="mt-1 flex-shrink-0 text-primary w-5 h-5 border-2 border-primary/50 rounded flex items-center justify-center">
-                                            <Check className="w-3 h-3 stroke-[4]" />
-                                        </div>
+                                        <img src="/checkbox.svg" alt="check" className="mt-1 flex-shrink-0 w-5 h-5" />
                                         <div>
                                             <span className="font-extrabold text-gray-900 text-base">Web Application Firewall (WAF): </span>
                                             <span className="text-gray-600 text-base">Advanced Layer 7 filtering that monitors and blocks malicious traffic (malware, exploits, and bots) before they reach your server.</span>
                                         </div>
                                     </li>
                                     <li className="flex items-start gap-3">
-                                        <div className="mt-1 flex-shrink-0 text-primary w-5 h-5 border-2 border-primary/50 rounded flex items-center justify-center">
-                                            <Check className="w-3 h-3 stroke-[4]" />
-                                        </div>
+                                        <img src="/checkbox.svg" alt="check" className="mt-1 flex-shrink-0 w-5 h-5" />
                                         <div>
                                             <span className="font-extrabold text-gray-900 text-base">Secure API Management: </span>
                                             <span className="text-gray-600 text-base">Ensures data integrity and confidentiality for all API-directed connections, preventing the 'loose doors' to your applications.</span>
                                         </div>
                                     </li>
                                     <li className="flex items-start gap-3">
-                                        <div className="mt-1 flex-shrink-0 text-primary w-5 h-5 border-2 border-primary/50 rounded flex items-center justify-center">
-                                            <Check className="w-3 h-3 stroke-[4]" />
-                                        </div>
+                                        <img src="/checkbox.svg" alt="check" className="mt-1 flex-shrink-0 w-5 h-5" />
                                         <div>
                                             <span className="font-bold text-gray-900">Comprehensive Threat Prevention: </span>
                                             <span className="text-gray-600">Active defense against high-risk attacks, including:</span>
@@ -208,27 +202,21 @@ export default function NetworkServicePage() {
 
                                 <ul className="space-y-6">
                                     <li className="flex items-start gap-3">
-                                        <div className="mt-1 flex-shrink-0 text-primary w-5 h-5 border-2 border-primary/50 rounded flex items-center justify-center">
-                                            <Check className="w-3 h-3 stroke-[4]" />
-                                        </div>
+                                        <img src="/checkbox.svg" alt="check" className="mt-1 flex-shrink-0 w-5 h-5" />
                                         <div>
                                             <span className="font-extrabold text-gray-900 text-base">Enterprise Email: </span>
                                             <span className="text-gray-600 text-base">Fully managed solutions for Zimbra and Zoho Mail with custom domains and secure authentication.</span>
                                         </div>
                                     </li>
                                     <li className="flex items-start gap-3">
-                                        <div className="mt-1 flex-shrink-0 text-primary w-5 h-5 border-2 border-primary/50 rounded flex items-center justify-center">
-                                            <Check className="w-3 h-3 stroke-[4]" />
-                                        </div>
+                                        <img src="/checkbox.svg" alt="check" className="mt-1 flex-shrink-0 w-5 h-5" />
                                         <div>
                                             <span className="font-extrabold text-gray-900 text-base">Reliable Web Hosting: </span>
                                             <span className="text-gray-600 text-base">Premium website and email management powered by the industry-standard cPanel platform.</span>
                                         </div>
                                     </li>
                                     <li className="flex items-start gap-3">
-                                        <div className="mt-1 flex-shrink-0 text-primary w-5 h-5 border-2 border-primary/50 rounded flex items-center justify-center">
-                                            <Check className="w-3 h-3 stroke-[4]" />
-                                        </div>
+                                        <img src="/checkbox.svg" alt="check" className="mt-1 flex-shrink-0 w-5 h-5" />
                                         <div>
                                             <span className="font-extrabold text-gray-900 text-base">Integrated Security: </span>
                                             <span className="text-gray-600 text-base">Proactive defense with Anti-Spam, Anti-Virus, and multi-platform protection for your inbox.</span>
