@@ -15,11 +15,11 @@ export default function NetworkServicePage() {
             <main>
                 {/* Hero Section */}
                 <section className="relative pt-32 md:pt-40 pb-20 overflow-hidden bg-white bg-custom-dots">
-                    <div className="container mx-auto px-4 md:px-8 max-w-4xl relative z-10 text-center">
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-[1.15] mb-6 tracking-tight">
+                    <div className="container mx-auto px-4 md:px-8 max-w-screen-2xl relative z-10 text-center">
+                        <h1 className="text-3xl md:text-4xl lg:text-5xl w-full font-bold text-gray-900 leading-[1.15] mb-6 tracking-tight">
                             Resilient Network Architecture for High-Stake Operations
                         </h1>
-                        <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+                        <p className="text-lg text-gray-600 mb-8 max-w-screen w-[80%] mx-auto leading-relaxed">
                             Experience comprehensive end-to-end infrastructure management powered by proactive maintenance strategies. We ensure your business achieves peak performance through ultra-fast, low-latency connectivity and robust, enterprise-grade security layers.
                         </p>
                         <Button
@@ -28,7 +28,7 @@ export default function NetworkServicePage() {
                             onClick={() => window.location.href = '/'}
                         >
                             <span>Learn More</span>
-                            <i className="fi fi-rr-info leading-none h-fit pt-1"></i>
+                            <i className="fi fi-rr-info leading-none h-fit pt-[1px]"></i>
                         </Button>
                     </div>
                 </section>
@@ -71,7 +71,7 @@ export default function NetworkServicePage() {
                     <div className="container mx-auto px-4 md:px-12 max-w-screen-2xl">
                         <div className="mb-12">
                             <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-4">Future-Ready Cloud Infrastructure</h2>
-                            <p className="text-lg md:text-xl font-medium text-gray-600 max-w-4xl">
+                            <p className="text-lg md:text-xl font-medium text-gray-600 w-full lg:w-[90%]">
                                 A high-performance and flexible cloud environment designed for seamless remote access and resilient data protection. Our solutions allow you to scale resources instantly while maintaining maximum security and operational visibility.
                             </p>
                         </div>
@@ -122,27 +122,27 @@ export default function NetworkServicePage() {
 
                 {/* Section 4: Secure Communication & Digital Defense */}
                 <section className="py-20 bg-white">
-                    <div className="container mx-auto px-4 md:px-8 max-w-7xl">
-                        <div className="text-center mb-16">
-                            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-5\">Secure Communication & Digital Defense</h2>
-                            <p className="text-gray-600 max-w-2xl mx-auto text-lg font-medium">
+                    <div className="container mx-auto px-4 md:px-8 max-w-screen-2xl">
+                        <div className="text-center mb-16 w-full">
+                            <h2 className="text-3xl md:text-4xl lg:text-4xl font-semibold text-gray-900 mb-5">Secure Communication & Digital Defense</h2>
+                            <p className="text-gray-600  mx-auto text-3xl pt-2 w-full  font-medium">
                                 Protect your data and professional identity with integrated cyber security and enterprise-grade hosting solutions.
                             </p>
                         </div>
 
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
                             {/* Card 1 */}
-                            <div className="bg-white rounded-3xl p-8 md:p-10 shadow-sm border border-gray-100 relative overflow-hidden">
-                                <h3 className="text-2xl md:text-3xl font-bold text-primary mb-4 w-4/5 leading-snug">Cyber Security & Threat Defense</h3>
-                                <p className="text-gray-700 font-medium text-xl  mb-8">
+                            <div className="bg-neutral-2 rounded-3xl p-8 md:p-14 border border-transparent hover:border-primary/10 hover:shadow-lg transition-all duration-500 relative overflow-hidden">
+                                <h3 className="text-2xl md:text-3xl font-bold text-primary mb-4 w-full leading-snug">Cyber Security & Threat Defense</h3>
+                                <p className="text-gray-700 font-medium text-2xl w-[90%]  mb-8">
                                     Complete protection for your web applications and data interfaces. We monitor, filter, and shield your digital ecosystem from evolving cyber threats 24/7.
                                 </p>
 
-                                <ul className="space-y-6 text-lg font-medium">
+                                <ul className="space-y-6 text-2xl w-full font-medium">
                                     <li className="flex items-start gap-3 ">
                                         <img src="/checkbox.svg" alt="check" className="mt-1 flex-shrink-0 w-5 h-5" />
                                         <div>
-                                            <span className="font-extrabold text-gray-900 text-base">Web Application Firewall (WAF): </span>
+                                            <span className="font-extrabold text-gray-900 text-2xl">Web Application Firewall (WAF): </span>
                                             <span className="text-gray-600 ">Advanced Layer 7 filtering that monitors and blocks malicious traffic (malware, exploits, and bots) before they reach your server.</span>
                                         </div>
                                     </li>
@@ -169,13 +169,13 @@ export default function NetworkServicePage() {
                             </div>
 
                             {/* Card 2 */}
-                            <div className="bg-white rounded-3xl p-8 md:p-10 shadow-sm border border-gray-100 relative overflow-hidden">
-                                <h3 className="text-2xl md:text-3xl font-bold text-primary mb-4 w-4/5 leading-snug">Professional Hosting & Email Services</h3>
-                                <p className="text-gray-700 font-medium text-xl mb-8">
+                            <div className="bg-neutral-2 rounded-3xl p-8 md:p-14 border border-transparent hover:border-primary/10 hover:shadow-lg transition-all duration-500 relative overflow-hidden">
+                                <h3 className="text-2xl md:text-3xl font-bold text-primary mb-4 w-full leading-snug">Professional Hosting & Email Services</h3>
+                                <p className="text-gray-700 font-medium text-2xl w-[90%] mb-8">
                                     Establish a credible digital identity with secure, high-performance communication and hosting solutions. We provide the infrastructure to keep your business connected and professional.
                                 </p>
 
-                                <ul className="space-y-6 text-lg font-medium">
+                                <ul className="space-y-6 text-2xl w-full font-medium">
                                     <li className="flex items-start gap-3">
                                         <img src="/checkbox.svg" alt="check" className="mt-1 flex-shrink-0 w-5 h-5" />
                                         <div>

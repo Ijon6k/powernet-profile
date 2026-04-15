@@ -3,6 +3,7 @@ import { Navbar } from "@/components/sections/Navbar";
 import { Footer } from "@/components/sections/Footer";
 import { Info, Phone } from "lucide-react";
 import { ServiceCard } from "@/components/ui/ServiceCard";
+import { Button } from "@/components/ui/Button";
 import aiimage1 from "@/public/image/ai/aiimage1.svg";
 import aiimage2 from "@/public/image/ai/aiimage2.svg";
 import aiimage3 from "@/public/image/ai/aiimage3.svg";
@@ -34,19 +35,20 @@ export default function AIServicePage() {
 
                                 <div className="flex flex-wrap items-center gap-4">
                                     <button
-                                        className="flex items-center justify-center gap-0 px-6 py-3 rounded-full bg-[#fce8ef] text-primary hover:bg-[#fbdde7] font-medium transition-colors text-sm"
+                                        className="inline-flex items-center justify-center text-sm font-semibold text-primary bg-primary-50 px-6 py-3 rounded-full hover:bg-primary-100 transition-colors gap-0"
                                         onClick={() => window.location.href = '/'}
                                     >
-                                        <span className="pr-2">Learn More</span>
-                                        <i className="fi fi-rr-info leading-none"></i>
+                                        <span className="h-fit pr-2">Learn More</span>
+                                        <i className="fi fi-rr-info leading-none h-fit pt-[1px]"></i>
                                     </button>
-                                    <button
-                                        className="flex items-center justify-center gap-0 px-6 py-3 rounded-full bg-[#b83b5e] text-white hover:bg-[#9f3150] font-medium transition-colors shadow-lg shadow-primary/20 text-sm"
+                                    <Button
+                                        variant="primary"
+                                        className="px-6 py-3 bg-primary text-white hover:bg-primary/90 rounded-full font-medium transition-colors shadow-lg shadow-primary/20 flex items-center justify-center gap-0 text-sm"
                                         onClick={() => window.location.href = '/'}
                                     >
                                         <span className="pr-2">Free Consultation</span>
-                                        <i className="fi fi-rr-call-outgoing leading-none"></i>
-                                    </button>
+                                        <i className="fi fi-rr-call-outgoing leading-none h-fit pt-[1px]"></i>
+                                    </Button>
                                 </div>
                             </div>
 

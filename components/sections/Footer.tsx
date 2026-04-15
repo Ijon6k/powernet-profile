@@ -1,7 +1,4 @@
 import React from "react";
-import NextImage from "next/image";
-import { ChevronRight } from "lucide-react";
-import { Button } from "../ui/Button";
 
 export const Footer = () => {
     return (
@@ -9,7 +6,7 @@ export const Footer = () => {
             <div className="mx-auto px-6 md:px-16 max-w-[1920px]">
                 <div className="flex flex-col lg:flex-row justify-between gap-16 lg:gap-8 mb-20">
                     <div className="flex-1 lg:max-w-2xl">
-                        <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary mb-6 leading-tight mt-2 lg:whitespace-nowrap">
+                        <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary mb-2 leading-tight mt-2 lg:whitespace-nowrap">
                             Transform Your Digital Future Today
                         </h3>
                         <p className="text-base md:text-lg text-gray-600 w-full lg:w-[80%] mb-10 font-medium leading-relaxed">
@@ -17,10 +14,12 @@ export const Footer = () => {
                             solutions that enhance efficiency and foster
                             innovation.
                         </p>
-                        <Button variant="outline" className="px-8 py-3 flex items-center justify-center gap-0">
-                            <span>Contact Us</span>
-                            <i className="fi fi-rr-call-outgoing leading-none"></i>
-                        </Button>
+                        <button
+                            className="px-8 py-4 text-lg bg-primary-50 text-primary rounded-full font-bold transition-all border-none flex items-center justify-center gap-3 hover:shadow-[0_4px_10px_rgba(184,59,94,0.2)] cursor-pointer"
+                        >
+                            <span className="text-primary">Contact Us</span>
+                            <i className="fi fi-rr-call-outgoing leading-none h-fit pb-[2px] text-xl text-primary"></i>
+                        </button>
                     </div>
 
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-12 lg:gap-20">

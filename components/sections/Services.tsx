@@ -42,7 +42,7 @@ export const Services = () => {
                     {SERVICES_DATA.map((service) => (
                         <div
                             key={service.id}
-                            className="bg-[#FAFAFA] rounded-3xl p-8 xl:p-10 flex flex-col border border-transparent hover:border-primary/10 hover:shadow-lg transition-all duration-500 group"
+                            className="bg-neutral-2 rounded-3xl p-8 xl:p-10 flex flex-col border border-transparent hover:border-primary/10 hover:shadow-lg transition-all duration-500 group"
                         >
                             {/* Text content */}
                             <div className="flex-grow">
