@@ -2,6 +2,15 @@
 import { Navbar } from "@/components/sections/Navbar";
 import { Footer } from "@/components/sections/Footer";
 import { Info, Phone } from "lucide-react";
+import { ServiceCard } from "@/components/ui/ServiceCard";
+import aiimage1 from "@/public/image/ai/aiimage1.svg";
+import aiimage2 from "@/public/image/ai/aiimage2.svg";
+import aiimage3 from "@/public/image/ai/aiimage3.svg";
+import aiimage4 from "@/public/image/ai/aiimage4.svg";
+import icon1 from "@/public/illustrations/ai/ai1.svg";
+import icon2 from "@/public/illustrations/ai/ai2.svg";
+import icon3 from "@/public/illustrations/ai/ai3.svg";
+import icon4 from "@/public/illustrations/ai/ai4.svg";
 
 export default function AIServicePage() {
     return (
@@ -10,16 +19,16 @@ export default function AIServicePage() {
             <main>
                 {/* Hero Section */}
                 <section className="relative pt-32 md:pt-48 pb-24 overflow-hidden bg-white">
-                    <div className="container mx-auto px-4 md:px-8 max-w-7xl">
+                    <div className="container mx-auto px-4 md:px-8 max-w-screen-3xl">
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-8 items-center">
 
                             {/* Left Column: Content */}
-                            <div className="max-w-xl">
-                                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-[1.25] mb-6">
-                                    Enterprise AI Architectures: <br className="hidden md:block" />
+                            <div className="max-w-full">
+                                <h1 className="text-2xl w-full md:text-4xl lg:text-5xl font-bold text-gray-900 leading-[1.25] mb-6">
+                                    Enterprise AI Architectures:
                                     Engineering Precision, Automating Complexity
                                 </h1>
-                                <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                                <p className="text-xl w-[90%] text-gray-600 mb-8 font-medium leading-relaxed">
                                     PowerNET deploys <span className="font-bold text-gray-900">custom-engineered AI models</span>—from Computer Vision to Advanced NLP—built for high-stakes environments. We integrate high-accuracy automation directly into your infrastructure while ensuring total data sovereignty and zero workflow disruption.
                                 </p>
 
@@ -42,42 +51,42 @@ export default function AIServicePage() {
                             </div>
 
                             {/* Right Column: 2x2 Grid */}
-                            <div className="w-full max-w-lg lg:ml-auto">
+                            <div className="w-full max-w-2xl lg:ml-auto">
                                 <div className="grid grid-cols-2 border border-gray-200 bg-white">
                                     {/* Box 1 */}
-                                    <div className="p-8 md:p-10 flex flex-col items-center text-center border-r border-b border-gray-200">
+                                    <div className="p-8 md:p-12 flex flex-col items-center text-center border-r border-b border-gray-200">
                                         <div className="w-18 h-18 flex items-center justify-center mb-6">
-                                            <img src="/illustrations/ai/ai1.svg" alt="Icon" className="w-full h-full object-contain" />
+                                            <img src={(icon1 as any).src || icon1} alt="Icon" className="w-full h-full object-contain" />
                                         </div>
-                                        <h3 className="font-bold text-gray-900 text-sm md:text-base mb-3 leading-tight">NLP Intelligence</h3>
-                                        <p className="text-sm md:text-base font-medium text-gray-600 leading-relaxed">Automated extraction and semantic analysis for enterprise data.</p>
+                                        <h3 className="font-bold text-gray-900 text-base mb-3 leading-tight">NLP Intelligence</h3>
+                                        <p className="text-sm font-medium text-gray-600 leading-relaxed">Automated extraction and semantic analysis for enterprise data.</p>
                                     </div>
 
                                     {/* Box 2 */}
-                                    <div className="p-8 md:p-10 flex flex-col items-center text-center border-b border-gray-200">
+                                    <div className="p-8 md:p-12 flex flex-col items-center text-center border-b border-gray-200">
                                         <div className="w-18 h-18 flex items-center justify-center mb-6">
-                                            <img src="/illustrations/ai/ai2.svg" alt="Icon" className="w-full h-full object-contain" />
+                                            <img src={(icon2 as any).src || icon2} alt="Icon" className="w-full h-full object-contain" />
                                         </div>
-                                        <h3 className="font-bold text-gray-900 text-sm md:text-base mb-3 leading-tight">Visual Recognition</h3>
-                                        <p className="text-sm md:text-base font-medium text-gray-600 leading-relaxed">Industrial-grade object detection with 99.9% precision.</p>
+                                        <h3 className="font-bold text-gray-900 text-base mb-3 leading-tight">Visual Recognition</h3>
+                                        <p className="text-sm font-medium text-gray-600 leading-relaxed">Industrial-grade object detection with 99.9% precision.</p>
                                     </div>
 
                                     {/* Box 3 */}
-                                    <div className="p-8 md:p-10 flex flex-col items-center text-center border-r border-gray-200">
+                                    <div className="p-8 md:p-12 flex flex-col items-center text-center border-r border-gray-200">
                                         <div className="w-18 h-18 flex items-center justify-center mb-6">
-                                            <img src="/illustrations/ai/ai3.svg" alt="Icon" className="w-full h-full object-contain" />
+                                            <img src={(icon3 as any).src || icon3} alt="Icon" className="w-full h-full object-contain" />
                                         </div>
-                                        <h3 className="font-bold text-gray-900 text-sm md:text-base mb-3 leading-tight">Cognitive Logic</h3>
-                                        <p className="text-sm md:text-base font-medium text-gray-600 leading-relaxed">Predictive modeling to optimize complex decision-making.</p>
+                                        <h3 className="font-bold text-gray-900 text-base mb-3 leading-tight">Cognitive Logic</h3>
+                                        <p className="text-sm font-medium text-gray-600 leading-relaxed">Predictive modeling to optimize complex decision-making.</p>
                                     </div>
 
                                     {/* Box 4 */}
-                                    <div className="p-8 md:p-10 flex flex-col items-center text-center">
+                                    <div className="p-8 md:p-12 flex flex-col items-center text-center">
                                         <div className="w-18 h-18 flex items-center justify-center mb-6">
-                                            <img src="/illustrations/ai/ai4.svg" alt="Icon" className="w-full h-full object-contain" />
+                                            <img src={(icon4 as any).src || icon4} alt="Icon" className="w-full h-full object-contain" />
                                         </div>
-                                        <h3 className="font-bold text-gray-900 text-sm md:text-base mb-3 leading-tight">Secure Infrastructure</h3>
-                                        <p className="text-sm md:text-base font-medium text-gray-600 leading-relaxed">Privacy-first AI integration via encrypted on-premise systems.</p>
+                                        <h3 className="font-bold text-gray-900 text-base mb-3 leading-tight">Secure Infrastructure</h3>
+                                        <p className="text-sm font-medium text-gray-600 leading-relaxed">Privacy-first AI integration via encrypted on-premise systems.</p>
                                     </div>
                                 </div>
                             </div>
@@ -86,83 +95,37 @@ export default function AIServicePage() {
                     </div>
                 </section>
 
-                {/* Process Section */}
-                <section className="py-24 bg-white relative overflow-hidden bg-custom-dots">
-                    <div className="container mx-auto px-4 md:px-16 max-w-screen-2xl relative z-10">
-                        <div className="text-center mb-16 md:mb-24">
-                            <h2 className="text-3xl md:text-4xl font-bold text-[#9f3150] mb-6">From Raw Data to Scalable Intelligence</h2>
-                            <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                                We eliminate the <span className="font-bold">"Black Box"</span> approach by providing a transparent, end-to-end engineering framework designed for enterprise reliability.
+                {/* AI Solutions Section */}
+                <section className="py-20 bg-white relative overflow-hidden bg-custom-dots">
+                    <div className="container mx-auto px-4 md:px-8 max-w-screen-2xl relative z-10">
+                        <div className="text-center mb-16">
+                            <h2 className="text-2xl md:text-4xl font-semibold text-primary mb-4">Enterprise AI Solutions</h2>
+                            <p className="text-lg md:text-xl font-medium text-gray-600 max-w-4xl mx-auto">
+                                A comprehensive suite of AI-powered services designed to automate workflows, enhance decision-making, and unlock actionable intelligence from your data.
                             </p>
                         </div>
 
-                        <div className="relative flex flex-col md:flex-row items-center justify-between min-h-[500px]">
-                            {/* SVG Curves Background */}
-                            <div className="hidden md:block absolute inset-0 z-0 pointer-events-none">
-                                <img src="/illustrations/curve-left.svg" alt="" className="absolute right-[50%] top-1/2 -translate-y-1/2 h-64 lg:h-80 object-right object-contain w-[40%]" />
-                                <img src="/illustrations/curve-right.svg" alt="" className="absolute left-[50%] top-1/2 -translate-y-1/2 h-64 lg:h-80 object-left object-contain w-[40%]" />
-                            </div>
-
-                            {/* Left Cards */}
-                            <div className="w-full md:w-[32%] flex flex-col gap-8 lg:gap-20 relative z-10">
-                                {/* Card 1 */}
-                                <div className="p-[10px] rounded-2xl bg-gradient-to-r from-[#fcb6c1] to-[#fde2e6] shadow-[0_4px_20px_rgba(252,182,193,0.4)]">
-                                    <div className="bg-white rounded-[14px] p-6 lg:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 lg:gap-6 h-full relative">
-                                        <div className="w-18 h-18 lg:w-24 lg:h-24 flex items-center justify-center shrink-0">
-                                            <img src="/illustrations/ai/ai5.svg" alt="Icon" className="w-full h-full object-contain" />
-                                        </div>
-                                        <div>
-                                            <h3 className="font-bold text-gray-900 text-lg mb-2">Data Acquisition</h3>
-                                            <p className="text-sm md:text-base font-medium text-gray-700 leading-relaxed">Secure ingestion and integration of structured and unstructured data sources.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* Card 2 */}
-                                <div className="p-[10px] rounded-2xl bg-gradient-to-r from-[#fcb6c1] to-[#fde2e6] shadow-[0_4px_20px_rgba(252,182,193,0.4)]">
-                                    <div className="bg-white rounded-[14px] p-6 lg:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 lg:gap-6 h-full relative">
-                                        <div className="w-18 h-18 lg:w-24 lg:h-24 flex items-center justify-center shrink-0">
-                                            <img src="/illustrations/ai/ai6.svg" alt="Icon" className="w-full h-full object-contain" />
-                                        </div>
-                                        <div>
-                                            <h3 className="font-bold text-gray-900 text-lg mb-2">Model Training</h3>
-                                            <p className="text-sm md:text-base font-medium text-gray-700 leading-relaxed">Custom-engineered frameworks and fine-tuning for domain-specific accuracy.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Center Logo */}
-                            <div className="hidden md:flex w-28 h-28 lg:w-32 lg:h-32 rounded-full bg-gradient-to-b from-[#f5a19b] to-[#fef2f2] shadow-[0_10px_40px_rgba(245,161,155,0.4)] items-center justify-center relative z-20 shrink-0 mx-20">
-                                <img src="/illustrations/ai/aicenter.svg" alt="AI Center Brain" className="w-20 h-20 lg:w-22 lg:h-22 object-contain" />
-                            </div>
-
-                            {/* Right Cards */}
-                            <div className="w-full md:w-[32%] flex flex-col gap-8 lg:gap-20 relative z-10 mt-12 md:mt-0">
-                                {/* Card 3 */}
-                                <div className="p-[10px] rounded-2xl bg-gradient-to-l from-[#fcb6c1] to-[#fde2e6] shadow-[0_4px_20px_rgba(252,182,193,0.4)]">
-                                    <div className="bg-white rounded-[14px] p-6 lg:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 lg:gap-6 h-full relative">
-                                        <div className="w-18 h-18 lg:w-24 lg:h-24 flex items-center justify-center shrink-0">
-                                            <img src="/illustrations/ai/ai7.svg" alt="Icon" className="w-full h-full object-contain" />
-                                        </div>
-                                        <div>
-                                            <h3 className="font-bold text-gray-900 text-lg mb-2">API Integration</h3>
-                                            <p className="text-sm md:text-base font-medium text-gray-700 leading-relaxed">Lightweight, scalable APIs engineered for seamless legacy system communication.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* Card 4 */}
-                                <div className="p-[10px] rounded-2xl bg-gradient-to-l from-[#fcb6c1] to-[#fde2e6] shadow-[0_4px_20px_rgba(252,182,193,0.4)]">
-                                    <div className="bg-white rounded-[14px] p-6 lg:p-8 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 lg:gap-6 h-full relative">
-                                        <div className="w-18 h-18 lg:w-24 lg:h-24 flex items-center justify-center shrink-0">
-                                            <img src="/illustrations/ai/ai8.svg" alt="Icon" className="w-full h-full object-contain" />
-                                        </div>
-                                        <div>
-                                            <h3 className="font-bold text-gray-900 text-lg mb-2">Optimization Loop</h3>
-                                            <p className="text-sm md:text-base font-medium text-gray-700 leading-relaxed">Continuous monitoring to prevent model drift and ensure long-term reliability.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                            <ServiceCard
+                                title="Data Acquisition"
+                                description="Secure ingestion of structured and unstructured data. We establish high-integrity pipelines to gather and organize information from diverse sources for processing."
+                                imageSrc={aiimage2}
+                            />
+                            <ServiceCard
+                                title="Model Training"
+                                description="Custom-engineered frameworks and fine-tuning for domain-specific accuracy. We train models to understand your business context, ensuring high precision and relevant outputs."
+                                imageSrc={aiimage3}
+                            />
+                            <ServiceCard
+                                title="API Integration"
+                                description="Lightweight, scalable APIs for seamless legacy system communication. We integrate AI insights directly into your existing workflows without disruption."
+                                imageSrc={aiimage4}
+                            />
+                            <ServiceCard
+                                title="Optimization Loop"
+                                description="Continuous monitoring to detect model drift and maintain accuracy. We use automated feedback loops to ensure your AI evolves and remains reliable as your business data grows."
+                                imageSrc={aiimage1}
+                            />
                         </div>
                     </div>
                 </section>

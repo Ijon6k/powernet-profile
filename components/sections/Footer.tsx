@@ -5,14 +5,14 @@ import { Button } from "../ui/Button";
 
 export const Footer = () => {
     return (
-        <footer className="bg-white pt-20 pb-10 border-t border-gray-100">
-            <div className="mx-auto px-4 md:px-8 max-w-screen-2xl">
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 mb-16">
-                    <div className="lg:col-span-5">
-                        <h3 className="text-4xl font-bold text-primary mb-4 leading-tight mt-2">
-                            Transform Your Digital <br /> Future Today
+        <footer className="bg-white pt-24 pb-12 border-t border-gray-100">
+            <div className="mx-auto px-6 md:px-16 max-w-[1920px]">
+                <div className="flex flex-col lg:flex-row justify-between gap-16 lg:gap-8 mb-20">
+                    <div className="flex-1 lg:max-w-2xl">
+                        <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary mb-6 leading-tight mt-2 lg:whitespace-nowrap">
+                            Transform Your Digital Future Today
                         </h3>
-                        <p className="text-lg text-gray-600 mb-8 max-w-sm">
+                        <p className="text-base md:text-lg text-gray-600 w-full lg:w-[80%] mb-10 font-medium leading-relaxed">
                             Get in touch with us to explore customized IT
                             solutions that enhance efficiency and foster
                             innovation.
@@ -23,16 +23,16 @@ export const Footer = () => {
                         </Button>
                     </div>
 
-                    <div className="lg:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-12 lg:gap-20">
                         <div>
-                            <h4 className="text-lg font-bold text-gray-900 mb-6">
+                            <h4 className="text-lg font-bold text-gray-900 mb-8">
                                 Services
                             </h4>
-                            <ul className="space-y-4 text-base text-gray-500">
+                            <ul className="space-y-6 text-base text-gray-500">
                                 <li>
                                     <a
                                         href="/services/network"
-                                        className="hover:text-primary transition-colors"
+                                        className="hover:text-primary transition-colors lg:whitespace-nowrap"
                                     >
                                         Network & Maintenance
                                     </a>
@@ -40,7 +40,7 @@ export const Footer = () => {
                                 <li>
                                     <a
                                         href="/services/software"
-                                        className="hover:text-primary transition-colors"
+                                        className="hover:text-primary transition-colors lg:whitespace-nowrap"
                                     >
                                         Software Development
                                     </a>
@@ -48,7 +48,7 @@ export const Footer = () => {
                                 <li>
                                     <a
                                         href="/services/ai"
-                                        className="hover:text-primary transition-colors"
+                                        className="hover:text-primary transition-colors lg:whitespace-nowrap"
                                     >
                                         Artificial Intelligence
                                     </a>
@@ -56,14 +56,14 @@ export const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <h4 className="text-lg font-bold text-gray-900 mb-6">
+                            <h4 className="text-lg font-bold text-gray-900 mb-8">
                                 Products
                             </h4>
-                            <ul className="space-y-4 text-base text-gray-500">
+                            <ul className="space-y-6 text-base text-gray-500">
                                 <li>
                                     <a
                                         href="#"
-                                        className="hover:text-primary transition-colors"
+                                        className="hover:text-primary transition-colors lg:whitespace-nowrap"
                                     >
                                         KelolaLimbah
                                     </a>
@@ -71,7 +71,7 @@ export const Footer = () => {
                                 <li>
                                     <a
                                         href="#"
-                                        className="hover:text-primary transition-colors"
+                                        className="hover:text-primary transition-colors lg:whitespace-nowrap"
                                     >
                                         PINTAR AI
                                     </a>
@@ -79,10 +79,10 @@ export const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <h4 className="text-lg font-bold text-gray-900 mb-6">
+                            <h4 className="text-lg font-bold text-gray-900 mb-8">
                                 Social Media
                             </h4>
-                            <ul className="space-y-4 text-base text-gray-500">
+                            <ul className="space-y-6 text-base text-gray-500">
                                 <li>
                                     <a
                                         href="#"
