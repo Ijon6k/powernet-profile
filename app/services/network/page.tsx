@@ -23,8 +23,8 @@ export default function NetworkServicePage() {
                             className="px-8 py-3 bg-primary text-white hover:bg-primary/90 rounded-full font-medium transition-colors flex items-center justify-center gap-0"
                             onClick={() => window.location.href = '/'}
                         >
-                            <span>Consult Now</span>
-                            <i className="fi fi-rr-call-outgoing leading-none"></i>
+                            <span>Learn More</span>
+                            <i className="fi fi-rr-info leading-none h-fit pt-1"></i>
                         </Button>
                     </div>
                 </section>
@@ -184,9 +184,9 @@ export default function NetworkServicePage() {
                                             <span className="font-bold text-gray-900">Comprehensive Threat Prevention: </span>
                                             <span className="text-gray-600">Active defense against high-risk attacks, including:</span>
                                             <ul className="list-disc pl-5 mt-2 space-y-1 text-gray-600">
-                                                <li>DDoS Mitigation: Prevent system downtime caused by traffic surges.</li>
-                                                <li>SQL Injection & XSS Defense: Stop hackers from stealing or deleting your database.</li>
-                                                <li>Session Security: Prevent unauthorized web session hijacking.</li>
+                                                <li><span className="font-bold">DDoS Mitigation:</span> DDoS Mitigation: Prevent system downtime caused by traffic surges.</li>
+                                                <li><span className="font-bold">SQL Injection & XSS Defense:</span> Stop hackers from stealing or deleting your database.</li>
+                                                <li><span className="font-bold">Session Security:</span> Prevent unauthorized web session hijacking.</li>
                                             </ul>
                                         </div>
                                     </li>

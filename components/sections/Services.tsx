@@ -59,12 +59,13 @@ export const Services = () => {
 
                             {/* Explore button */}
                             <div className="mt-8 mb-10">
-                                <button 
-                                    className="inline-flex items-center justify-center text-sm font-semibold text-primary bg-primary-50 px-6 py-3 rounded-full hover:bg-primary-100 transition-colors gap-0"
+                                <button
+                                    className="inline-flex  items-center justify-center text-sm font-semibold text-primary bg-primary-50 px-6 py-3 rounded-full hover:bg-primary-100 transition-colors gap-0"
                                     onClick={() => window.location.href = service.href}
                                 >
-                                    <span>Explore</span>
-                                    <i className="fi fi-rr-info leading-none"></i>
+                                    <span className="h-fit pr-2
+                                    ">Explore</span>
+                                    <i className="fi-rr-angle-small-right pt-1     leading-none"></i>
                                 </button>
                             </div>
 
