@@ -15,7 +15,7 @@ export const Footer = () => {
                             innovation.
                         </p>
                         <button
-                            className="px-8 py-4 text-lg bg-primary-50 text-primary rounded-full font-bold transition-all border-none flex items-center justify-center gap-3 hover:shadow-[0_4px_10px_rgba(184,59,94,0.2)] cursor-pointer"
+                            className="px-8 py-4 text-lg bg-primary-50 text-primary rounded-full font-bold transition-all border-none flex items-center justify-center gap-3 hover:shadow-[0_5px_15px_rgba(184,59,94,0.3)] cursor-pointer"
                         >
                             <span className="text-primary">Contact Us</span>
                             <i className="fi fi-rr-call-outgoing leading-none h-fit pb-[2px] text-xl text-primary"></i>
