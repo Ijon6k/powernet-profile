@@ -115,12 +115,12 @@ export default function AIServicePage() {
                             />
                             <ServiceCard
                                 title="Model Training"
-                                description="Custom-engineered frameworks and fine-tuning for domain-specific accuracy. We train models to understand your business context, ensuring high precision and relevant outputs."
+                                description="Development of custom-engineered frameworks and precise fine-tuning. We optimize models using your specific datasets to achieve superior, domain-specific accuracy."
                                 imageSrc={aiimage3}
                             />
                             <ServiceCard
                                 title="API Integration"
-                                description="Lightweight, scalable APIs for seamless legacy system communication. We integrate AI insights directly into your existing workflows without disruption."
+                                description="Deployment of lightweight, scalable APIs designed for seamless connectivity. We ensure high-speed communication between your new AI assets and existing legacy systems."
                                 imageSrc={aiimage4}
                             />
                             <ServiceCard
