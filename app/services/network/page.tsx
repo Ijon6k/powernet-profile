@@ -66,62 +66,8 @@ export default function NetworkServicePage() {
                     </div>
                 </section>
 
-                {/* Section 3: Future-Ready Cloud Infrastructure */}
+                {/* Section 3: Secure Communication & Digital Defense */}
                 <section className="py-20 bg-gray-50/50">
-                    <div className="container mx-auto px-4 md:px-12 max-w-screen-2xl">
-                        <div className="mb-12">
-                            <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-4">Future-Ready Cloud Infrastructure</h2>
-                            <p className="text-lg md:text-xl font-medium text-gray-600 w-full lg:w-[90%]">
-                                A high-performance and flexible cloud environment designed for seamless remote access and resilient data protection. Our solutions allow you to scale resources instantly while maintaining maximum security and operational visibility.
-                            </p>
-                        </div>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            <div className="bg-white rounded-2xl p-6 lg:p-6 lg:pt-12  shadow-sm flex flex-col border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary text-left group hover:shadow-md transition-shadow">
-                                <div className="w-full h-24 lg:h-32 mb-6">
-                                    <img src="/illustrations/network/High performance server 1.svg" alt="Seamless Remote Access" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
-                                </div>
-                                <div className="flex flex-col gap-2 mt-auto pb-4">
-                                    <h3 className="text-lg lg:text-xl font-bold text-gray-900 leading-tight">01 Seamless Remote Access</h3>
-                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">Secure and stable connectivity from any location. High-speed access for a flexible, mobile workforce..</p>
-                                </div>
-                            </div>
-
-                            <div className="bg-white rounded-2xl p-6 lg:p-6 lg:pt-12  shadow-sm flex flex-col border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary text-left group hover:shadow-md transition-shadow">
-                                <div className="w-full h-24 lg:h-32 mb-6">
-                                    <img src="/illustrations/network/High nnnserver 1.svg" alt="Automated Data Security" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
-                                </div>
-                                <div className="flex flex-col gap-2 mt-auto pb-4">
-                                    <h3 className="text-lg lg:text-xl font-bold text-gray-900 leading-tight">02 Automated Data Security</h3>
-                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">24/7 automated encryption and threat detection. Advanced protection with zero manual effort..</p>
-                                </div>
-                            </div>
-
-                            <div className="bg-white rounded-2xl p-6 lg:p-6 lg:pt-12  shadow-sm flex flex-col border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary text-left group hover:shadow-md transition-shadow">
-                                <div className="w-full h-24 lg:h-32 mb-6">
-                                    <img src="/illustrations/network/High nnnserver (1) 1.svg" alt="On-Demand Scalability" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
-                                </div>
-                                <div className="flex flex-col gap-2 mt-auto pb-4">
-                                    <h3 className="text-lg lg:text-xl font-bold text-gray-900 leading-tight">03 On-Demand Scalability</h3>
-                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">Scale your capacity instantly as business grows. Adaptive infrastructure for real-time demands..</p>
-                                </div>
-                            </div>
-
-                            <div className="bg-white rounded-2xl p-6 lg:p-6 lg:pt-12  shadow-sm flex flex-col border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary text-left group hover:shadow-md transition-shadow">
-                                <div className="w-full h-24 lg:h-32 mb-6">
-                                    <img src="/illustrations/network/High nnnserver (2) 1.svg" alt="Optimized Cost Efficiency" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
-                                </div>
-                                <div className="flex flex-col gap-2 mt-auto pb-4">
-                                    <h3 className="text-lg lg:text-xl font-bold text-gray-900 leading-tight">04 Optimized Cost Efficiency</h3>
-                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">Eliminate wasted spend with smart allocation. Maximum performance at minimal operational costs.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                {/* Section 4: Secure Communication & Digital Defense */}
-                <section className="py-20 bg-white">
                     <div className="container mx-auto px-4 md:px-8 max-w-screen-2xl">
                         <div className="text-center mb-16 w-full">
                             <h2 className="text-3xl  font-semibold text-gray-900 mb-5">Secure Communication & Digital Defense</h2>
@@ -198,6 +144,60 @@ export default function NetworkServicePage() {
                                         </div>
                                     </li>
                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Section 4: Future-Ready Cloud Infrastructure */}
+                <section className="py-20 bg-white">
+                    <div className="container mx-auto px-4 md:px-12 max-w-screen-2xl">
+                        <div className="mb-12">
+                            <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-4">Future-Ready Cloud Infrastructure</h2>
+                            <p className="text-lg md:text-xl font-medium text-gray-600 w-full lg:w-[90%]">
+                                A high-performance and flexible cloud environment designed for seamless remote access and resilient data protection. Our solutions allow you to scale resources instantly while maintaining maximum security and operational visibility.
+                            </p>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                            <div className="bg-white rounded-2xl p-6 lg:p-6 lg:pt-12  shadow-sm flex flex-col border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary text-left group hover:shadow-md transition-shadow">
+                                <div className="w-full h-24 lg:h-32 mb-6">
+                                    <img src="/illustrations/network/High performance server 1.svg" alt="Seamless Remote Access" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
+                                </div>
+                                <div className="flex flex-col gap-2 mt-auto pb-4">
+                                    <h3 className="text-lg lg:text-xl font-bold text-gray-900 leading-tight">01 Seamless Remote Access</h3>
+                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">Secure and stable connectivity from any location. High-speed access for a flexible, mobile workforce..</p>
+                                </div>
+                            </div>
+
+                            <div className="bg-white rounded-2xl p-6 lg:p-6 lg:pt-12  shadow-sm flex flex-col border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary text-left group hover:shadow-md transition-shadow">
+                                <div className="w-full h-24 lg:h-32 mb-6">
+                                    <img src="/illustrations/network/High nnnserver 1.svg" alt="Automated Data Security" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
+                                </div>
+                                <div className="flex flex-col gap-2 mt-auto pb-4">
+                                    <h3 className="text-lg lg:text-xl font-bold text-gray-900 leading-tight">02 Automated Data Security</h3>
+                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">24/7 automated encryption and threat detection. Advanced protection with zero manual effort..</p>
+                                </div>
+                            </div>
+
+                            <div className="bg-white rounded-2xl p-6 lg:p-6 lg:pt-12  shadow-sm flex flex-col border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary text-left group hover:shadow-md transition-shadow">
+                                <div className="w-full h-24 lg:h-32 mb-6">
+                                    <img src="/illustrations/network/High nnnserver (1) 1.svg" alt="On-Demand Scalability" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
+                                </div>
+                                <div className="flex flex-col gap-2 mt-auto pb-4">
+                                    <h3 className="text-lg lg:text-xl font-bold text-gray-900 leading-tight">03 On-Demand Scalability</h3>
+                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">Scale your capacity instantly as business grows. Adaptive infrastructure for real-time demands..</p>
+                                </div>
+                            </div>
+
+                            <div className="bg-white rounded-2xl p-6 lg:p-6 lg:pt-12  shadow-sm flex flex-col border border-gray-100 border-l-2 border-b-2 border-l-primary border-b-primary text-left group hover:shadow-md transition-shadow">
+                                <div className="w-full h-24 lg:h-32 mb-6">
+                                    <img src="/illustrations/network/High nnnserver (2) 1.svg" alt="Optimized Cost Efficiency" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
+                                </div>
+                                <div className="flex flex-col gap-2 mt-auto pb-4">
+                                    <h3 className="text-lg lg:text-xl font-bold text-gray-900 leading-tight">04 Optimized Cost Efficiency</h3>
+                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">Eliminate wasted spend with smart allocation. Maximum performance at minimal operational costs.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
