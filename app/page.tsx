@@ -9,8 +9,10 @@ export default function Home() {
         <div className="min-h-screen bg-white font-sans selection:bg-primary selection:text-white max-w-[1920px] mx-auto overflow-x-hidden">
             <Navbar />
             <main>
-                <Hero />
-                <Partners />
+                <div className="relative bg-white bg-custom-dots overflow-hidden">
+                    <Hero />
+                    <Partners />
+                </div>
                 <Services />
             </main>
             <Footer />

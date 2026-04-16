@@ -83,7 +83,7 @@ export default function NetworkServicePage() {
                                 </div>
                                 <div className="flex flex-col gap-2 mt-auto pb-4">
                                     <h3 className="text-lg lg:text-xl font-bold text-gray-900 leading-tight">01 Seamless Remote Access</h3>
-                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">Safeguard your digital assets with advanced protocols and multi-layered authentication for maximum privacy.</p>
+                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">Secure and stable connectivity from any location. High-speed access for a flexible, mobile workforce..</p>
                                 </div>
                             </div>
 
@@ -93,7 +93,7 @@ export default function NetworkServicePage() {
                                 </div>
                                 <div className="flex flex-col gap-2 mt-auto pb-4">
                                     <h3 className="text-lg lg:text-xl font-bold text-gray-900 leading-tight">02 Automated Data Security</h3>
-                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">Safeguard your digital assets with advanced protocols and multi-layered authentication for maximum privacy.</p>
+                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">24/7 automated encryption and threat detection. Advanced protection with zero manual effort..</p>
                                 </div>
                             </div>
 
@@ -103,7 +103,7 @@ export default function NetworkServicePage() {
                                 </div>
                                 <div className="flex flex-col gap-2 mt-auto pb-4">
                                     <h3 className="text-lg lg:text-xl font-bold text-gray-900 leading-tight">03 On-Demand Scalability</h3>
-                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">Safeguard your digital assets with advanced protocols and multi-layered authentication for maximum privacy.</p>
+                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">Scale your capacity instantly as business grows. Adaptive infrastructure for real-time demands..</p>
                                 </div>
                             </div>
 
@@ -113,7 +113,7 @@ export default function NetworkServicePage() {
                                 </div>
                                 <div className="flex flex-col gap-2 mt-auto pb-4">
                                     <h3 className="text-lg lg:text-xl font-bold text-gray-900 leading-tight">04 Optimized Cost Efficiency</h3>
-                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">Safeguard your digital assets with advanced protocols and multi-layered authentication for maximum privacy.</p>
+                                    <p className="text-sm lg:text-base font-medium text-gray-600 leading-relaxed">Eliminate wasted spend with smart allocation. Maximum performance at minimal operational costs.</p>
                                 </div>
                             </div>
                         </div>
@@ -124,25 +124,25 @@ export default function NetworkServicePage() {
                 <section className="py-20 bg-white">
                     <div className="container mx-auto px-4 md:px-8 max-w-screen-2xl">
                         <div className="text-center mb-16 w-full">
-                            <h2 className="text-3xl md:text-4xl lg:text-4xl font-semibold text-gray-900 mb-5">Secure Communication & Digital Defense</h2>
-                            <p className="text-gray-600  mx-auto text-3xl pt-2 w-full  font-medium">
+                            <h2 className="text-3xl  font-semibold text-gray-900 mb-5">Secure Communication & Digital Defense</h2>
+                            <p className="text-gray-600  mx-auto text-xl pt-2 w-full  font-medium">
                                 Protect your data and professional identity with integrated cyber security and enterprise-grade hosting solutions.
                             </p>
                         </div>
 
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8 max-w-7xl mx-auto">
                             {/* Card 1 */}
                             <div className="bg-neutral-2 rounded-3xl p-8 md:p-14 border border-transparent hover:border-primary/10 hover:shadow-lg transition-all duration-500 relative overflow-hidden">
-                                <h3 className="text-2xl md:text-3xl font-bold text-primary mb-4 w-full leading-snug">Cyber Security & Threat Defense</h3>
-                                <p className="text-gray-700 font-medium text-2xl w-[90%]  mb-8">
+                                <h3 className="text-2xl font-semibold text-primary mb-8 w-full leading-snug lg:whitespace-nowrap">Cyber Security & Threat Defense</h3>
+                                <p className="text-gray-700 font-medium  text-xl w-[90%]  mb-8">
                                     Complete protection for your web applications and data interfaces. We monitor, filter, and shield your digital ecosystem from evolving cyber threats 24/7.
                                 </p>
 
-                                <ul className="space-y-6 text-2xl w-full font-medium">
+                                <ul className="space-y-6 text-xl w-full font-medium">
                                     <li className="flex items-start gap-3 ">
                                         <img src="/checkbox.svg" alt="check" className="mt-1 flex-shrink-0 w-5 h-5" />
                                         <div>
-                                            <span className="font-extrabold text-gray-900 text-2xl">Web Application Firewall (WAF): </span>
+                                            <span className="font-extrabold text-gray-900 ">Web Application Firewall (WAF): </span>
                                             <span className="text-gray-600 ">Advanced Layer 7 filtering that monitors and blocks malicious traffic (malware, exploits, and bots) before they reach your server.</span>
                                         </div>
                                     </li>
@@ -170,12 +170,12 @@ export default function NetworkServicePage() {
 
                             {/* Card 2 */}
                             <div className="bg-neutral-2 rounded-3xl p-8 md:p-14 border border-transparent hover:border-primary/10 hover:shadow-lg transition-all duration-500 relative overflow-hidden">
-                                <h3 className="text-2xl md:text-3xl font-bold text-primary mb-4 w-full leading-snug">Professional Hosting & Email Services</h3>
-                                <p className="text-gray-700 font-medium text-2xl w-[90%] mb-8">
+                                <h3 className="text-2xl font-semibold text-primary mb-8 w-full leading-snug lg:whitespace-nowrap">Professional Hosting & Email Services</h3>
+                                <p className="text-gray-700 font-medium text-xl w-[90%] mb-8">
                                     Establish a credible digital identity with secure, high-performance communication and hosting solutions. We provide the infrastructure to keep your business connected and professional.
                                 </p>
 
-                                <ul className="space-y-6 text-2xl w-full font-medium">
+                                <ul className="space-y-6 text-xl w-full font-medium">
                                     <li className="flex items-start gap-3">
                                         <img src="/checkbox.svg" alt="check" className="mt-1 flex-shrink-0 w-5 h-5" />
                                         <div>

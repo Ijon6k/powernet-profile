@@ -46,13 +46,13 @@ export const Services = () => {
                         >
                             {/* Text content */}
                             <div className="flex-grow">
-                                <span className="text-primary font-semibold text-sm tracking-wide uppercase mb-4 block">
+                                <span className="text-primary font-semibold text-lg tracking-wide uppercase mb-4 block">
                                     Service
                                 </span>
-                                <h3 className="text-2xl xl:text-3xl font-bold text-gray-900 mb-4 leading-tight">
+                                <h3 className="text-2xl xl:text-3xl font-semibold text-gray-900 mb-4 leading-tight">
                                     {service.title}
                                 </h3>
-                                <p className="text-gray-600 leading-relaxed text-base xl:text-lg">
+                                <p className="text-gray-600 leading-relaxed text-regular font-medium xl:text-lg">
                                     {service.desc}
                                 </p>
                             </div>

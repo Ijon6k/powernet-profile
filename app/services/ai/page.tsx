@@ -134,11 +134,11 @@ export default function AIServicePage() {
 
                 {/* Advantage Section */}
                 <section className="w-full border-y border-gray-200 bg-white lg:h-screen min-h-max lg:min-h-[700px] flex items-stretch">
-                    <div className="w-full max-w-[1400px] mx-auto h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.4fr_0.8fr_0.8fr] border-x border-gray-200 bg-white">
+                    <div className="w-full max-w-[1300px] mx-auto h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.25fr_0.875fr_0.875fr] border-x border-gray-200 bg-white">
                         {/* Left Text Block */}
                         <div className="col-span-1 md:col-span-2 lg:col-span-1 lg:row-span-2 lg:border-r border-b lg:border-b-0 border-gray-200 p-8 lg:p-12 xl:p-16 flex flex-col justify-start pt-12 lg:pt-16 xl:pt-20">
-                            <span className="text-[#9f3150] font-bold text-sm lg:text-base mb-6 block uppercase tracking-wider">The PowerNET Advantage</span>
-                            <h2 className="text-3xl lg:text-4xl xl:text-[2.75rem] font-bold text-gray-900 leading-tight flex-1">
+                            <span className="text-primary font-bold text-base lg:text-2xl mb-6 block  tracking-wider">The PowerNET Advantages</span>
+                            <h2 className="text-3xl lg:text-4xl  font-bold text-gray-900 leading-tight flex-1">
                                 Tailored AI solutions engineered for security, accuracy, and seamless enterprise continuity.
                             </h2>
                         </div>
@@ -146,7 +146,7 @@ export default function AIServicePage() {
                         {/* Top Middle */}
                         <div className="col-span-1 border-b md:border-r border-gray-200 p-10 lg:p-12 flex flex-col justify-start">
                             <h3 className="text-2xl font-bold text-gray-900 mb-6">Custom-Built for You</h3>
-                            <p className="text-lg lg:text-xl font-medium text-gray-700 leading-relaxed">
+                            <p className="text-lg lg:text-xl font-medium text-gray-900 leading-relaxed">
                                 We don't use generic tools. Every AI model is trained specifically on your business data for maximum accuracy.
                             </p>
                         </div>
@@ -154,7 +154,7 @@ export default function AIServicePage() {
                         {/* Top Right */}
                         <div className="col-span-1 border-b border-gray-200 p-10 lg:p-12 flex flex-col justify-start">
                             <h3 className="text-2xl font-bold text-gray-900 mb-6">Your Data Stays Safe</h3>
-                            <p className="text-lg lg:text-xl font-medium text-gray-700 leading-relaxed">
+                            <p className="text-lg lg:text-xl font-medium text-gray-900 leading-relaxed">
                                 Your privacy is our priority. We deploy AI on your own servers or private cloud so your data never leaves your control.
                             </p>
                         </div>
@@ -162,7 +162,7 @@ export default function AIServicePage() {
                         {/* Bottom Middle */}
                         <div className="col-span-1 border-b md:border-b-0 md:border-r border-gray-200 p-10 lg:p-12 lg:pb-14 flex flex-col justify-start">
                             <h3 className="text-2xl font-bold text-gray-900 mb-6">Proven Performance</h3>
-                            <p className="text-lg lg:text-xl font-medium text-gray-700 leading-relaxed">
+                            <p className="text-lg lg:text-xl font-medium text-gray-900 leading-relaxed">
                                 We don't just promise results. Every system is rigorously tested and validated to ensure it works reliably in real-world conditions.
                             </p>
                         </div>
@@ -170,7 +170,7 @@ export default function AIServicePage() {
                         {/* Bottom Right */}
                         <div className="col-span-1 p-10 lg:p-12 lg:pb-14 flex flex-col justify-start">
                             <h3 className="text-2xl font-bold text-gray-900 mb-6">Easy Integration</h3>
-                            <p className="text-lg lg:text-xl font-medium text-gray-700 leading-relaxed">
+                            <p className="text-lg lg:text-xl font-medium text-gray-900 leading-relaxed">
                                 No need to change your current software. Our AI is designed to plug directly into your existing systems without disrupting your workflow.
                             </p>
                         </div>
