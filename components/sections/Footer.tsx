@@ -7,9 +7,9 @@ export const Footer = () => {
             <CTASection />
             <div className="bg-white pt-20 pb-10 border-t border-gray-100">
                 <div className="mx-auto px-6 md:px-10  max-w-screen-2xl">
-                    <div className="flex flex-col lg:flex-row justify-between gap-12 mb-16">
+                    <div className="flex flex-col lg:flex-row gap-0 mb-16">
                         {/* LEFT */}
-                        <div className="flex-1 max-w-[1440px]">
+                        <div className="flex-1 w-fit lg:border-r lg:border-gray-200  mr-24">
                             <h3 className="text-xl md:text-2xl font-semibold text-primary mb-8">
                                 Get in Touch With Us
                             </h3>
@@ -39,13 +39,11 @@ export const Footer = () => {
                             </div>
                         </div>
 
-                        {/* DIVIDER */}
-                        <div className="hidden lg:block w-px mr-10 bg-gray-200"></div>
 
                         {/* RIGHT */}
-                        <div className="flex-1 grid grid-cols-2 sm:grid-cols-3 gap-10">
+                        <div className="flex-1 flex flex-wrap items-start justify-between gap-x-10 lg:gap-x-16 gap-y-10 lg:pl-12">
 
-                            <div>
+                            <div className="w-fit">
                                 <h4 className="text-lg font-semibold text-gray-900 mb-6">
                                     Services
                                 </h4>
@@ -68,7 +66,7 @@ export const Footer = () => {
                                 </ul>
                             </div>
 
-                            <div>
+                            <div className="w-fit">
                                 <h4 className="text-lg font-semibold text-gray-900 mb-6">
                                     Products
                                 </h4>
@@ -86,7 +84,7 @@ export const Footer = () => {
                                 </ul>
                             </div>
 
-                            <div>
+                            <div className="w-fit">
                                 <h4 className="text-lg font-semibold text-gray-900 mb-6">
                                     Social Media
                                 </h4>
