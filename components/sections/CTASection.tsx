@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export const CTASection = () => {
     return (
-        <section className="py-24 max-w-screen-2xl bg-neutral-2 mx-auto  overflow-hidden">
+        <section className="py-24 w-full bg-neutral-2 mx-auto  overflow-hidden">
             <div className="container mx-auto px-4 text-center">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
