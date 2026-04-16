@@ -14,7 +14,7 @@ export default function NetworkServicePage() {
             <Navbar />
             <main>
                 {/* Hero Section */}
-                <section className="relative pt-32 md:pt-40 pb-20 overflow-hidden bg-white bg-custom-dots">
+                <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-white bg-custom-dots pt-20">
                     <div className="container mx-auto px-4 md:px-8 max-w-screen-2xl relative z-10 text-center">
                         <h1 className="text-3xl md:text-4xl lg:text-5xl w-full font-bold text-gray-900 leading-[1.15] mb-6 tracking-tight">
                             Resilient Network Architecture for High-Stake Operations
