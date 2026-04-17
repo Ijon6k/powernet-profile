@@ -19,7 +19,7 @@ export default function AIServicePage() {
             <Navbar />
             <main>
                 {/* Hero Section */}
-                <section className="relative pt-32 md:pt-48 pb-24 overflow-hidden bg-white">
+                <section className="relative pt-32 md:pt-48 pb-24 overflow-hidden bg-white border-b border-gray-200">
                     <div className="container mx-auto px-4 md:px-8 max-w-screen-3xl">
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-8 items-center">
 

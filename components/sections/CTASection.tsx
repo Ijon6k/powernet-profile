@@ -21,7 +21,7 @@ export const CTASection = () => {
 
                     <div className="flex justify-center">
                         <button
-                            className="flex items-center gap-3 px-8 py-4 bg-primary-50 text-primary rounded-full font-bold text-lg hover:shadow-[0_5px_15px_rgba(184,59,94,0.15)] transition-all cursor-pointer group"
+                            className="flex items-center gap-3 px-8 py-4 bg-primary-50 text-primary rounded-full font-extrabold text-xl hover:shadow-[0_5px_15px_rgba(184,59,94,0.15)] transition-all cursor-pointer group"
                             onClick={() => window.location.href = '#'}
                         >
                             <span>Scale with PowerNET</span>
