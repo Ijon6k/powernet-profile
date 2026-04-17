@@ -137,9 +137,15 @@ export default function AIServicePage() {
                     <div className="w-full max-w-[1300px] mx-auto h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.25fr_0.875fr_0.875fr] border-x border-gray-200 bg-white">
                         {/* Left Text Block */}
                         <div className="col-span-1 md:col-span-2 lg:col-span-1 lg:row-span-2 lg:border-r border-b lg:border-b-0 border-gray-200 p-8 lg:p-12 xl:p-16 flex flex-col justify-start pt-12 lg:pt-16 xl:pt-20">
-                            <span className="text-primary font-bold text-base lg:text-2xl mb-6 block  tracking-wider">The PowerNET Advantages</span>
-                            <h2 className="text-3xl lg:text-4xl  font-bold text-gray-900 leading-tight flex-1">
-                                Tailored AI solutions engineered for security, accuracy, and seamless enterprise continuity.
+                            <span className="text-primary font-medium text-base lg:text-xl mb-4 block  tracking-wider">The PowerNET Advantages</span>
+                            <h2 className="text-3xl lg:text-4xl  font-semibold text-gray-900 leading-tight flex-1">
+                                Tailored AI solutions engineered for
+                                <br />
+                                security, accuracy,
+                                <br />
+                                and seamless
+                                <br />
+                                enterprise continuity.
                             </h2>
                         </div>
 

@@ -12,9 +12,9 @@ export const Partners = () => {
 
     return (
         <section className="py-20 border-b-2 border-gray-100 overflow-hidden">
-            <div className="container mx-auto px-4 text-center max-w-[1920px] relative z-10">
+            <div className="container w-fit mx-auto px-4 text-center max-w-[1920px] relative z-10">
                 <SectionHeader
-                    title="Validated by Leaders in Government and Enterprise."
+                    title="     Validated by Leaders in Government and Enterprise"
                     highlight="Leaders"
                     subtitle="We collaborate with key stakeholders to deploy secure, high-governance IT ecosystems"
                 />

@@ -5,7 +5,7 @@ import { CTAButton } from "@/components/ui/CTAButton";
 
 export const CTASection = () => {
     return (
-        <section className="py-24 w-full bg-neutral-2 mx-auto overflow-hidden">
+        <section className=" border-t  border-gray-200 py-24 w-full bg-neutral-2 mx-auto overflow-hidden">
             <div className="container mx-auto px-4 text-center">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -27,7 +27,7 @@ export const CTASection = () => {
                           - variant="light"   : Light pink background + red sparkles (Latest version)
                           - variant="primary" : Red background + white sparkles
                         */}
-                        <CTAButton variant="plain" />
+                        <CTAButton variant="light" />
                     </div>
                 </motion.div>
             </div>

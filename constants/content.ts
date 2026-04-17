@@ -9,13 +9,13 @@ import {
 
 export const NAV_LINKS = [
     { label: "Home", href: "/" },
-    { 
-        label: "Services", 
-        href: "#services", 
+    {
+        label: "Services",
+        href: "#services",
         hasDropdown: true,
         dropdownItems: [
-            { label: "Artificial Intelligence", href: "/services/ai", icon: "fi fi-rr-add" },
-            { label: "Network & Maintenance", href: "/services/network", icon: "fi fi-rr-network" },
+            { label: "Artificial Intelligence", href: "/services/ai", icon: "fi fi-rr-physics" },
+            { label: "Network & Maintenance", href: "/services/network", icon: "fi fi-rr-globe" },
             { label: "Software Development", href: "/services/software", icon: "fi fi-rr-laptop" },
         ]
     },
