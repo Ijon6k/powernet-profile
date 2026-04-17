@@ -67,18 +67,18 @@ export default function NetworkServicePage() {
                 </section>
 
                 {/* Section 3: Secure Communication & Digital Defense */}
-                <section className="py-20 bg-gray-50/50">
+                <section className="py-20 bg-white ">
                     <div className="container mx-auto px-4 md:px-8 max-w-screen-2xl">
                         <div className="text-center mb-16 w-full">
-                            <h2 className="text-3xl  font-semibold text-gray-900 mb-5">Secure Communication & Digital Defense</h2>
-                            <p className="text-gray-900  mx-auto text-xl pt-2 w-full  font-medium">
+                            <h2 className="text-3xl  font-semibold text-gray-900 mb-2">Secure Communication & Digital Defense</h2>
+                            <p className="text-gray-900  mx-auto text-xl  w-full  font-medium">
                                 Protect your data and professional identity with integrated cyber security and enterprise-grade hosting solutions.
                             </p>
                         </div>
 
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8 max-w-7xl mx-auto">
                             {/* Card 1 */}
-                            <div className="bg-neutral-2 rounded-3xl p-8 md:p-14 border border-transparent hover:border-primary/10 hover:shadow-lg transition-all duration-500 relative overflow-hidden">
+                            <div className="bg-neutral-2 rounded-3xl p-8 md:p-10 border border-transparent hover:border-primary/10 hover:shadow-lg transition-all duration-500 relative overflow-hidden">
                                 <h3 className="text-2xl font-semibold text-primary mb-8 w-full leading-snug lg:whitespace-nowrap">Cyber Security & Threat Defense</h3>
                                 <p className="text-gray-700 font-medium  text-xl w-[90%]  mb-8">
                                     Complete protection for your web applications and data interfaces. We monitor, filter, and shield your digital ecosystem from evolving cyber threats 24/7.
@@ -115,7 +115,7 @@ export default function NetworkServicePage() {
                             </div>
 
                             {/* Card 2 */}
-                            <div className="bg-neutral-2 rounded-3xl p-8 md:p-14 border border-transparent hover:border-primary/10 hover:shadow-lg transition-all duration-500 relative overflow-hidden">
+                            <div className="bg-neutral-2 rounded-3xl p-8 md:p-10 border border-transparent hover:border-primary/10 hover:shadow-lg transition-all duration-500 relative overflow-hidden">
                                 <h3 className="text-2xl font-semibold text-primary mb-8 w-full leading-snug lg:whitespace-nowrap">Professional Hosting & Email Services</h3>
                                 <p className="text-gray-700 font-medium text-xl w-[90%] mb-8">
                                     Establish a credible digital identity with secure, high-performance communication and hosting solutions. We provide the infrastructure to keep your business connected and professional.
@@ -154,7 +154,7 @@ export default function NetworkServicePage() {
                     <div className="container mx-auto px-4 md:px-12 max-w-screen-2xl">
                         <div className="mb-12 text-center">
                             <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-4">Future-Ready Cloud Infrastructure</h2>
-                            <p className="text-lg md:text-xl font-medium text-gray-900 w-full lg:w-[90%]">
+                            <p className="text-lg md:text-xl mx-auto font-medium text-gray-900 w-full lg:w-[90%]">
                                 A high-performance and flexible cloud environment designed for seamless remote access and resilient data protection. Our solutions allow you to scale resources instantly while maintaining maximum security and operational visibility.
                             </p>
                         </div>
