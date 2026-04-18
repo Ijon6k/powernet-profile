@@ -65,8 +65,8 @@ export const Navbar = () => {
                     </nav>
 
                     <div className="hidden md:block">
-                        <Button 
-                            variant="outline" 
+                        <Button
+                            variant="outline"
                             className="text-sm font-medium px-6 py-2.5 flex items-center justify-center gap-0"
                             onClick={() => window.location.href = '/'}
                         >
@@ -76,7 +76,7 @@ export const Navbar = () => {
                     </div>
 
                     <button
-                        className="md:hidden p-2 text-gray-600"
+                        className="md:hidden p-2 text-gray-900"
                         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                     >
                         {isMobileMenuOpen ? <X /> : <Menu />}
@@ -101,7 +101,7 @@ export const Navbar = () => {
                                         <a
                                             key={item.label}
                                             href={item.href}
-                                            className="p-3 text-sm font-medium text-gray-600 hover:text-primary hover:bg-gray-50 rounded-lg flex items-center gap-3 transition-colors group/mobileItem"
+                                            className="p-3 text-sm font-medium text-gray-900 hover:text-primary hover:bg-gray-50 rounded-lg flex items-center gap-3 transition-colors group/mobileItem"
                                         >
                                             <i className={`${item.icon} text-xl text-gray-900 group-hover/mobileItem:text-primary transition-colors`}></i>
                                             {item.label}
@@ -111,8 +111,8 @@ export const Navbar = () => {
                             )}
                         </div>
                     ))}
-                    <Button 
-                        variant="primary" 
+                    <Button
+                        variant="primary"
                         className="w-full mt-4 flex items-center justify-center gap-0"
                         onClick={() => window.location.href = '/'}
                     >

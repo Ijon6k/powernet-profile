@@ -29,7 +29,7 @@ export default function AIServicePage() {
                                     Enterprise AI Architectures:
                                     Engineering Precision, Automating Complexity
                                 </h1>
-                                <p className="text-xl w-[90%] text-gray-600 mb-8 font-medium leading-relaxed">
+                                <p className="text-xl w-[90%] text-gray-900 mb-8 font-medium leading-relaxed">
                                     PowerNET deploys <span className="font-bold text-gray-900">custom-engineered AI models</span>—from Computer Vision to Advanced NLP—built for high-stakes environments. We integrate high-accuracy automation directly into your infrastructure while ensuring total data sovereignty and zero workflow disruption.
                                 </p>
 
@@ -61,7 +61,7 @@ export default function AIServicePage() {
                                             <img src={(icon1 as any).src || icon1} alt="Icon" className="w-full h-full object-contain" />
                                         </div>
                                         <h3 className="font-bold text-gray-900 text-base mb-3 leading-tight">NLP Intelligence</h3>
-                                        <p className="text-sm font-medium text-gray-600 leading-relaxed">Automated extraction and semantic analysis for enterprise data.</p>
+                                        <p className="text-sm font-medium text-gray-900 leading-relaxed">Automated extraction and semantic analysis for enterprise data.</p>
                                     </div>
 
                                     {/* Box 2 */}
@@ -70,7 +70,7 @@ export default function AIServicePage() {
                                             <img src={(icon2 as any).src || icon2} alt="Icon" className="w-full h-full object-contain" />
                                         </div>
                                         <h3 className="font-bold text-gray-900 text-base mb-3 leading-tight">Visual Recognition</h3>
-                                        <p className="text-sm font-medium text-gray-600 leading-relaxed">Industrial-grade object detection with 99.9% precision.</p>
+                                        <p className="text-sm font-medium text-gray-900 leading-relaxed">Industrial-grade object detection with 99.9% precision.</p>
                                     </div>
 
                                     {/* Box 3 */}
@@ -79,7 +79,7 @@ export default function AIServicePage() {
                                             <img src={(icon3 as any).src || icon3} alt="Icon" className="w-full h-full object-contain" />
                                         </div>
                                         <h3 className="font-bold text-gray-900 text-base mb-3 leading-tight">Cognitive Logic</h3>
-                                        <p className="text-sm font-medium text-gray-600 leading-relaxed">Predictive modeling to optimize complex decision-making.</p>
+                                        <p className="text-sm font-medium text-gray-900 leading-relaxed">Predictive modeling to optimize complex decision-making.</p>
                                     </div>
 
                                     {/* Box 4 */}
@@ -88,7 +88,7 @@ export default function AIServicePage() {
                                             <img src={(icon4 as any).src || icon4} alt="Icon" className="w-full h-full object-contain" />
                                         </div>
                                         <h3 className="font-bold text-gray-900 text-base mb-3 leading-tight">Secure Infrastructure</h3>
-                                        <p className="text-sm font-medium text-gray-600 leading-relaxed">Privacy-first AI integration via encrypted on-premise systems.</p>
+                                        <p className="text-sm font-medium text-gray-900 leading-relaxed">Privacy-first AI integration via encrypted on-premise systems.</p>
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@ export default function AIServicePage() {
                     <div className="container mx-auto px-4 md:px-8 max-w-screen-2xl relative z-10">
                         <div className="text-center mb-16">
                             <h2 className="text-2xl md:text-4xl font-semibold text-primary mb-4">Enterprise AI Solutions</h2>
-                            <p className="text-lg md:text-xl font-medium text-gray-600 max-w-4xl mx-auto">
+                            <p className="text-lg md:text-xl font-medium text-gray-900 max-w-4xl mx-auto">
                                 A comprehensive suite of AI-powered services designed to automate workflows, enhance decision-making, and unlock actionable intelligence from your data.
                             </p>
                         </div>

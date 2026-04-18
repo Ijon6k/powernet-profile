@@ -106,7 +106,7 @@ export const Footer = () => {
 
                     {/* COPYRIGHT */}
                     <div className="pt-6 border-t border-gray-100 text-center">
-                        <p className="text-xl text-gray-600 font-medium">
+                        <p className="text-xl text-gray-900 font-medium">
                             Copyright @ PowerNET {new Date().getFullYear()}. All rights reserved
                         </p>
                     </div>
