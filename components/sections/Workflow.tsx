@@ -43,7 +43,7 @@ export const Workflow = () => {
     return (
         <section className="py-24 bg-white">
             <div className="container mx-auto px-4 md:px-8 max-w-7xl relative z-10">
-                <div className="text-center max-w-none mx-auto mb-20">
+                <div data-aos="fade-up" className="text-center max-w-none mx-auto mb-20">
                     <h2 className="text-2xl md:text-4xl font-semibold text-primary mb-6">
                         Strategic Development and Scalable Implementation
                     </h2>
@@ -58,6 +58,8 @@ export const Workflow = () => {
                             key={step.id}
                             initial="initial"
                             whileHover="hover"
+                            data-aos="fade-up"
+                            data-aos-delay={index * 100}
                             className={`p-10 md:p-12 border-gray-100 transition-colors duration-500 hover:bg-gray-50/50 group
                                 ${index % 2 === 0 ? 'md:border-r' : ''} 
                                 ${index < 4 ? 'border-b' : ''}

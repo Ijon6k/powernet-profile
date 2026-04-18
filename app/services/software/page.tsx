@@ -19,14 +19,14 @@ export default function SoftwareServicePage() {
 
                         {/* Left Column: Content */}
                         <div className="max-w-full">
-                            <h1 className="text-2xl w-full md:text-4xl lg:text-5xl lg:max-w-[20ch] font-bold text-gray-900 leading-[1.25] mb-6">
+                            <h1 data-aos="fade-up" className="text-2xl w-full md:text-4xl lg:text-5xl lg:max-w-[20ch] font-bold text-gray-900 leading-[1.25] mb-6">
                                 End-to-end Software Solutions to Power Your Business Growth
                             </h1>
-                            <p className="text-xl w-[80%] text-gray-900 mb-8 font-medium leading-relaxed">
+                            <p data-aos="fade-up" data-aos-delay="200" className="text-xl w-[80%] text-gray-900 mb-8 font-medium leading-relaxed">
                                 We engineer <b>high-performance software</b> to eliminate bottlenecks and automate your workflows. Our custom solutions provide the robust technical foundation needed to optimize operations and accelerate scalable business growth.
                             </p>
 
-                            <div className="flex flex-wrap items-center gap-4">
+                            <div data-aos="fade-up" data-aos-delay="400" className="flex flex-wrap items-center gap-4">
                                 <button
                                     className="inline-flex items-center justify-center text-sm font-semibold text-primary bg-primary-50 px-6 py-3 rounded-full hover:bg-primary-100 transition-colors gap-0"
                                     onClick={() => window.location.href = '/'}
@@ -65,7 +65,7 @@ export default function SoftwareServicePage() {
             {/* Precision Engineering Section */}
             <section className="bg-white py-20 md:py-32 border-t border-gray-50">
                 <div className="container mx-auto px-4 md:px-8 max-w-7xl">
-                    <div className="text-center max-w-7xl mx-auto mb-20">
+                    <div data-aos="fade-up" className="text-center max-w-7xl mx-auto mb-20">
                         <h2 className="text-2xl md:text-4xl font-semibold text-primary mb-4">
                             Precision Engineering for Complex Systems
                         </h2>
@@ -76,7 +76,7 @@ export default function SoftwareServicePage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-0 divide-y md:divide-y-0 md:divide-x divide-gray-200">
                         {/* 01 Bespoke Architecture */}
-                        <div className="py-10 md:py-0 md:px-8 first:pl-0 last:pr-0">
+                        <div data-aos="fade-up" data-aos-delay="0" className="py-10 md:py-0 md:px-8 first:pl-0 last:pr-0">
                             <h3 className="text-2xl font-bold text-gray-900 mb-6 leading-tight">
                                 <span className="block mb-1">01 Bespoke</span>
                                 Architecture
@@ -87,7 +87,7 @@ export default function SoftwareServicePage() {
                         </div>
 
                         {/* 02 Seamless Integration */}
-                        <div className="py-10 md:py-0 md:px-8 first:pl-0 last:pr-0">
+                        <div data-aos="fade-up" data-aos-delay="200" className="py-10 md:py-0 md:px-8 first:pl-0 last:pr-0">
                             <h3 className="text-2xl font-bold text-gray-900 mb-6 leading-tight">
                                 <span className="block mb-1">02 Seamless</span>
                                 Integration
@@ -98,7 +98,7 @@ export default function SoftwareServicePage() {
                         </div>
 
                         {/* 03 Intelligent Automation */}
-                        <div className="py-10 md:py-0 md:px-8 first:pl-0 last:pr-0">
+                        <div data-aos="fade-up" data-aos-delay="400" className="py-10 md:py-0 md:px-8 first:pl-0 last:pr-0">
                             <h3 className="text-2xl font-bold text-gray-900 mb-6 leading-tight">
                                 <span className="block mb-1">03 Intelligent</span>
                                 Automation
@@ -109,7 +109,7 @@ export default function SoftwareServicePage() {
                         </div>
 
                         {/* 04 Data-Driven Insights */}
-                        <div className="py-10 md:py-0 md:px-8 first:pl-0 last:pr-0">
+                        <div data-aos="fade-up" data-aos-delay="600" className="py-10 md:py-0 md:px-8 first:pl-0 last:pr-0">
                             <h3 className="text-2xl font-bold text-gray-900 mb-6 leading-tight">
                                 <span className="block mb-1">04 Data-Driven</span>
                                 Insights
@@ -126,7 +126,7 @@ export default function SoftwareServicePage() {
             <section className="bg-white py-16 md:py-24">
                 <div className="container mx-auto px-4 md:px-8 max-w-7xl">
                     <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-24">
-                        <div className="flex-1 w-full relative aspect-[4/3] md:aspect-square lg:aspect-[16/10] overflow-hidden rounded-3xl">
+                        <div data-aos="fade-right" className="flex-1 w-full relative aspect-[4/3] md:aspect-square lg:aspect-[16/10] overflow-hidden rounded-3xl">
                             <Image
                                 src="/image/softwareimage2.svg"
                                 alt="Enterprise Web Development"
@@ -134,7 +134,7 @@ export default function SoftwareServicePage() {
                                 className="object-cover"
                             />
                         </div>
-                        <div className="flex-1 text-center md:text-left">
+                        <div data-aos="fade-left" className="flex-1 text-center md:text-left">
                             <h2 className="text-2xl md:text-4xl font-semibold text-primary mb-6">Enterprise Web Development</h2>
                             <p className="text-lg md:text-xl font-medium text-gray-900 leading-relaxed mb-8">
                                 We engineer robust web platforms focused on high-load stability and complex data integration. Our web solutions are built to serve as the central nervous system of your business.
@@ -164,7 +164,7 @@ export default function SoftwareServicePage() {
             <section className="bg-white py-16 md:py-24">
                 <div className="container mx-auto px-4 md:px-8 max-w-7xl">
                     <div className="flex flex-col md:flex-row-reverse items-center gap-12 lg:gap-24">
-                        <div className="flex-1 w-full relative aspect-[4/3] md:aspect-square lg:aspect-[16/10] overflow-hidden rounded-3xl">
+                        <div data-aos="fade-left" className="flex-1 w-full relative aspect-[4/3] md:aspect-square lg:aspect-[16/10] overflow-hidden rounded-3xl">
                             <Image
                                 src="/image/softwareimage1.svg"
                                 alt="Scalable Mobile Solutions"
@@ -172,7 +172,7 @@ export default function SoftwareServicePage() {
                                 className="object-cover"
                             />
                         </div>
-                        <div className="flex-1 text-center md:text-left">
+                        <div data-aos="fade-right" className="flex-1 text-center md:text-left">
                             <h2 className="text-2xl md:text-4xl font-semibold text-primary mb-6">Scalable Mobile Solutions</h2>
                             <p className="text-lg md:text-xl font-medium text-gray-900 leading-relaxed mb-8">
                                 High-performance Android applications designed for speed, security, and native-level experience. We bring your operational power to the palm of your hand.

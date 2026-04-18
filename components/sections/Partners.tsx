@@ -24,6 +24,8 @@ export const Partners = () => {
                         {row1.map((partner, idx) => (
                             <div
                                 key={`row1-${idx}`}
+                                data-aos="fade-up"
+                                data-aos-delay={idx * 100}
                                 className="relative w-[100px] h-[50px] sm:w-[130px] sm:h-[65px] md:w-[150px] md:h-[75px] lg:w-[170px] lg:h-[85px] xl:w-[220px] xl:h-[110px] 2xl:w-[280px] 2xl:h-[140px] transition-transform duration-300 hover:scale-105"
                             >
                                 {partner && (
@@ -43,6 +45,8 @@ export const Partners = () => {
                         {row2.map((partner, idx) => (
                             <div
                                 key={`row2-${idx}`}
+                                data-aos="fade-up"
+                                data-aos-delay={idx * 100}
                                 className="relative w-[100px] h-[50px] sm:w-[130px] sm:h-[65px] md:w-[150px] md:h-[75px] lg:w-[170px] lg:h-[85px] xl:w-[220px] xl:h-[110px] 2xl:w-[280px] 2xl:h-[140px] transition-transform duration-300 hover:scale-105"
                             >
                                 {partner && (
