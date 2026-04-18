@@ -26,9 +26,9 @@ export default function RootLayout({
             <body className={`${archivo.variable} antialiased`}>
                 <SmoothScrollProvider>
                     {children}
-                    <Analytics />
                     <SpeedInsights />
-                </SmoothScrollProvider>
+                    <Analytics />
+                </SmoothScrollProvider>gi
             </body>
         </html>
     );
