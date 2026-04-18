@@ -36,7 +36,7 @@ export default function SoftwareServicePage() {
                                 </button>
                                 <Button
                                     variant="primary"
-                                    className="px-6 py-3 bg-primary text-white hover:bg-primary/90 rounded-full font-medium transition-colors flex items-center justify-center gap-0 text-sm"
+                                    className="px-6 py-3 bg-primary text-white hover:bg-primary/90 rounded-full font-medium transition-colors shadow-lg shadow-primary/20 flex items-center justify-center gap-0 text-sm"
                                     onClick={() => window.location.href = '/'}
                                 >
                                     <span className="pr-2">Free Consultation</span>
@@ -128,7 +128,7 @@ export default function SoftwareServicePage() {
                     <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-24">
                         <div className="flex-1 w-full relative aspect-[4/3] md:aspect-square lg:aspect-[16/10] overflow-hidden rounded-3xl">
                             <Image
-                                src="/image/enterprise_web.png"
+                                src="/image/softwareimage2.svg"
                                 alt="Enterprise Web Development"
                                 fill
                                 className="object-cover"
@@ -143,14 +143,14 @@ export default function SoftwareServicePage() {
                                 <li className="flex items-start gap-4 text-left">
                                     <span className="fi fi-rr-checkbox text-primary flex-shrink-0 mt-1"></span>
                                     <div className="lg:text-xl">
-                                        <span className="font-bold text-gray-900">Performance Engineering:</span>
+                                        <span className="font-semibold text-gray-900">Performance Engineering:</span>
                                         <span className="text-gray-900 ml-1">Scalable architecture designed for high-traffic environments.</span>
                                     </div>
                                 </li>
                                 <li className="flex items-start gap-4 text-left">
                                     <span className="fi fi-rr-checkbox text-primary flex-shrink-0 mt-1"></span>
                                     <div className="lg:text-xl">
-                                        <span className="font-bold text-gray-900">System Synergy:</span>
+                                        <span className="font-semibold text-gray-900">System Synergy:</span>
                                         <span className="text-gray-900 ml-1">Seamless API and cloud integration with your existing enterprise tools.</span>
                                     </div>
                                 </li>
@@ -166,7 +166,7 @@ export default function SoftwareServicePage() {
                     <div className="flex flex-col md:flex-row-reverse items-center gap-12 lg:gap-24">
                         <div className="flex-1 w-full relative aspect-[4/3] md:aspect-square lg:aspect-[16/10] overflow-hidden rounded-3xl">
                             <Image
-                                src="/image/mobile_solutions.png"
+                                src="/image/softwareimage1.svg"
                                 alt="Scalable Mobile Solutions"
                                 fill
                                 className="object-cover"
@@ -180,15 +180,15 @@ export default function SoftwareServicePage() {
                             <ul className="space-y-6">
                                 <li className="flex items-start gap-4 text-left">
                                     <span className="fi fi-rr-checkbox text-primary flex-shrink-0 mt-1"></span>
-                                    <div className="lg:text-xl">
-                                        <span className="font-bold text-gray-900">Cross-Platform Agility:</span>
+                                    <div className="md:text-xl">
+                                        <span className="font-semibold text-gray-900">Cross-Platform Agility:</span>
                                         <span className="text-gray-900 ml-1">Modern frameworks ensuring consistent performance across all devices.</span>
                                     </div>
                                 </li>
                                 <li className="flex items-start gap-4 text-left">
                                     <span className="fi fi-rr-checkbox text-primary flex-shrink-0 mt-1"></span>
                                     <div className="lg:text-xl">
-                                        <span className="font-bold text-gray-900">Offline-First Logic:</span>
+                                        <span className="font-semibold text-gray-900">Offline-First Logic:</span>
                                         <span className="text-gray-900 ml-1">Built-in resilience to ensure business continuity even with unstable connectivity.</span>
                                     </div>
                                 </li>

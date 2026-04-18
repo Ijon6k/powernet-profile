@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 type ButtonVariant = "plain" | "light" | "primary";
@@ -48,6 +48,11 @@ export const CTAButton: React.FC<CTAButtonProps> = ({
     onClick,
     className = ""
 }) => {
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
 
     // Variant styles mapping
     const variantStyles = {
@@ -88,7 +93,7 @@ export const CTAButton: React.FC<CTAButtonProps> = ({
             className={`relative overflow-hidden flex items-center gap-4 px-12 py-6 rounded-full font-medium text-2xl transition-all cursor-pointer group ${currentStyle.button} ${currentStyle.shadow} ${currentStyle.hoverShadow} ${className}`}
             onClick={onClick || (() => window.location.href = '#')}
         >
-            {currentStyle.sparkles && <Sparkles colorClass={currentStyle.sparkles} />}
+            {mounted && currentStyle.sparkles && <Sparkles colorClass={currentStyle.sparkles} />}
 
             {/* Shine Sweep Effect */}
             <motion.div className="absolute inset-0 w-full h-full pointer-events-none">

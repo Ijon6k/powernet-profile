@@ -15,7 +15,7 @@ export const Button = ({
             "bg-primary-50 text-primary hover:bg-primary-100 border border-transparent",
         ghost: "bg-transparent text-gray-700 hover:text-primary",
     };
-
+    // test komentar
     return (
         <button
             className={`${baseStyle} ${variants[variant as keyof typeof variants]} ${className}`}
