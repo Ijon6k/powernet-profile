@@ -9,7 +9,7 @@ export const Footer = () => {
                 <div className="mx-auto px-6 md:px-10  max-w-screen-2xl">
                     <div className="flex flex-col lg:flex-row gap-0 mb-16">
                         {/* LEFT */}
-                        <div className="flex-1 w-fit lg:border-r lg:border-gray-200  mr-24">
+                        <div data-aos="fade-up" className="flex-1 w-fit lg:border-r lg:border-gray-200  mr-24">
                             <h3 className="text-xl md:text-2xl font-semibold text-primary mb-8">
                                 Get in Touch With Us
                             </h3>
@@ -41,7 +41,7 @@ export const Footer = () => {
 
 
                         {/* RIGHT */}
-                        <div className="flex-1 flex flex-wrap items-start justify-between gap-x-10 lg:gap-x-16 gap-y-10 lg:pl-12">
+                        <div data-aos="fade-up" data-aos-delay="200" className="flex-1 flex flex-wrap items-start justify-between gap-x-10 lg:gap-x-16 gap-y-10 lg:pl-12">
 
                             <div className="w-fit">
                                 <h4 className="text-lg font-semibold text-gray-900 mb-6">

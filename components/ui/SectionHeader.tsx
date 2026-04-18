@@ -7,6 +7,7 @@ export const SectionHeader = ({
     align = "center",
 }: any) => (
     <div
+        data-aos="fade-up"
         className={`mb-12 ${align === "center" ? "text-center mx-auto" : "text-left"} max-w-screen-2xl`}
     >
         <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-gray-900 mb-4 leading-tight">

@@ -3,6 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { SmoothScrollProvider } from "@/components/providers/SmoothScrollProvider";
 import { Analytics } from '@vercel/analytics/react';
+import { AOSProvider } from "@/components/providers/AOSProvider";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { GoogleAnalytics } from "@next/third-parties/google";
 
@@ -36,7 +37,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en" className={archivo.variable}>
+        <html lang="en" className={archivo.variable} suppressHydrationWarning>
             <head>
                 <link
                     rel="stylesheet"
@@ -45,8 +46,9 @@ export default function RootLayout({
             </head>
             <body className={`${archivo.variable} antialiased`}>
                 <SmoothScrollProvider>
-                    {children}
-
+                    <AOSProvider>
+                        {children}
+                    </AOSProvider>
                 </SmoothScrollProvider>
                 <SpeedInsights />
                 <Analytics />
