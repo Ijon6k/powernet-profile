@@ -19,8 +19,47 @@ export const NAV_LINKS = [
             { label: "Software Development", href: "/services/software", icon: "fi fi-rr-laptop" },
         ]
     },
-    { label: "Products", href: "#products", hasDropdown: true },
+    {
+        label: "Products",
+        href: "/products",
+        hasDropdown: true,
+        dropdownItems: [
+            { label: "Kelola Limbah", href: "/products?type=limbah", icon: "fi fi-rr-recycle" },
+            { label: "Pintar AI", href: "/products?type=pintar", icon: "fi fi-rr-brain" },
+        ]
+    },
 ];
+
+export const PRODUCTS_DATA = {
+    limbah: {
+        id: "limbah",
+        name: "KelolaLimbah",
+        displayName: "Kelola Limbah",
+        headline: "Driving Net Zero through Integrated Waste Management",
+        description: "KelolaLimbah automates industrial waste tracking to bridge the gap between operations and environmental accountability. We provide a high-performance infrastructure to ensure regulatory compliance and accelerate your transition toward a Net Zero future.",
+        modules: [
+            { title: "Net Zero Alignment", desc: "Precision tracking to meet corporate sustainability targets." },
+            { title: "Automated Compliance", desc: "Streamlined reporting for rigorous regulatory standards." },
+            { title: "Total Traceability", desc: "Full visibility from waste generation to final disposal." },
+            { title: "Custom Development", desc: "Tailored modules engineered to fit your unique operational logic." }
+        ],
+        previewColor: "bg-[#FDFCF2]" // Soft yellow as seen in image
+    },
+    pintar: {
+        id: "pintar",
+        name: "PINTAR AI",
+        displayName: "Pintar AI",
+        headline: "Strategic Intelligence for Mission-Critical Operations",
+        description: "PINTAR AI integrates advanced computer vision and predictive analytics into your existing infrastructure. Designed for high-stakes environments, it transforms raw operational data into actionable strategic intelligence while ensuring total data sovereignty.",
+        modules: [
+            { title: "Cognitive Logic", desc: "Advanced neural networks for complex decision-making." },
+            { title: "Industrial Vision", desc: "Real-time object detection and anomaly monitoring." },
+            { title: "Secure Sovereignty", desc: "On-premise AI deployment ensuring maximum data privacy." },
+            { title: "Strategic Oversight", desc: "Unified dashboard for enterprise-wide intelligence." }
+        ],
+        previewColor: "bg-[#F5F8FF]" // Soft blue/cool for AI
+    }
+};
 
 export const PILLARS = [
     {
